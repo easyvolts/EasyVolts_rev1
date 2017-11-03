@@ -1,2 +1,3 @@
 # EasyVolts_rev1
-test repository for git learning
+test repository for new features of the easyvolts.
+
