@@ -1,0 +1,1755 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1455 ]
+[d frameptr 6 ]
+"88 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+[e E2468 . `uc
+channel_AN3 3
+channel_AN6 6
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"141 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[e E2814 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"713
+[e E2563 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2017
+[e E2823 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"425 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[e E2480 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"426
+[e E2740 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"425 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[e E2480 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"426
+[e E2740 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"54 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+[e E2485 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"55
+[e E2745 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"131 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[e E2736 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"500
+[e E3268 . `uc
+channel_AN3 3
+channel_AN6 6
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"66 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+[v _USART_putcUSART USART_putcUSART `(v  1 e 1 0 ]
+"92
+[v _USART_mySetLineCodingHandler USART_mySetLineCodingHandler `(v  1 e 1 0 ]
+"142
+[v _USART_getcUSART USART_getcUSART `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+[v i1___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+[v i1_memset memset `(*.39v  1 e 1 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"76 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _main_switchStepUp_Down main_switchStepUp_Down `(v  1 e 1 0 ]
+"104
+[v _main_CDC_to_RS485_Initialize main_CDC_to_RS485_Initialize `(v  1 e 1 0 ]
+"126
+[v _main_CDC_to_RS485_Tasks main_CDC_to_RS485_Tasks `(v  1 e 1 0 ]
+"213
+[v _main_SetDcDcRegulator main_SetDcDcRegulator `(v  1 e 1 0 ]
+"245
+[v _my_uitoa my_uitoa `(v  1 e 1 0 ]
+"266
+[v _main_Communication_Initialize main_Communication_Initialize `(v  1 e 1 0 ]
+"287
+[v _main_CommunicationHandler main_CommunicationHandler `(v  1 e 1 0 ]
+"410
+[v _main_overcurrentProtection main_overcurrentProtection `(v  1 e 1 0 ]
+"450
+[v _main main `(v  1 e 1 0 ]
+"493
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"64 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"87
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+"95
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+[v i1_ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+"102
+[v _ADC_IsConversionDone ADC_IsConversionDone `(uc  1 e 1 0 ]
+"108
+[v _ADC_GetConversionResult ADC_GetConversionResult `(ui  1 e 2 0 ]
+"55 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"57 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"72 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"86
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"102
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"51 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"57 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"71
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+[v i1_PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+"63 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"89
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"132
+[v _TMR1_Reload TMR1_Reload `(v  1 e 1 0 ]
+[v i1_TMR1_Reload TMR1_Reload `(v  1 e 1 0 ]
+"63 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"83
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"277 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+[v i1_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"477
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"995
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+[v i1_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+"1771
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+"2129
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+"2303
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+"2372
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+"2465
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+"2538
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+"2592
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+"2686
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+"2754
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+"3025
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+"147 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 1 0 ]
+"294
+[v _CDCInitEP CDCInitEP `(v  1 e 1 0 ]
+"485
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+"556
+[v _putUSBUSART putUSBUSART `(v  1 e 1 0 ]
+"836
+[v _CDCTxService CDCTxService `(v  1 e 1 0 ]
+"147 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[v _USBCheckCDCRequest2 USBCheckCDCRequest2 `(v  1 e 1 0 ]
+"294
+[v _CDCInitEP2 CDCInitEP2 `(v  1 e 1 0 ]
+"485
+[v _getsUSBUSART2 getsUSBUSART2 `(uc  1 e 1 0 ]
+"556
+[v _putUSBUSART2 putUSBUSART2 `(v  1 e 1 0 ]
+"836
+[v _CDCTxService2 CDCTxService2 `(v  1 e 1 0 ]
+"53 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+[s S3093 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"372 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f1455.h
+[s S3102 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S3107 . 1 `S3093 1 . 1 0 `S3102 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES3107  1 e 1 @11 ]
+[s S115 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"539
+[u S124 . 1 `S115 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES124  1 e 1 @17 ]
+[s S764 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"596
+[u S773 . 1 `S764 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES773  1 e 1 @18 ]
+"658
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"678
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"698
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S395 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"720
+[s S402 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[u S408 . 1 `S395 1 . 1 0 `S402 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES408  1 e 1 @24 ]
+"770
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+[s S425 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"790
+[s S433 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+]
+[u S436 . 1 `S425 1 . 1 0 `S433 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES436  1 e 1 @25 ]
+"840
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"860
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"880
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S140 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"901
+[s S144 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S152 . 1 `S140 1 . 1 0 `S144 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES152  1 e 1 @28 ]
+"951
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"978
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S24 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1045
+[u S33 . 1 `S24 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES33  1 e 1 @145 ]
+[s S696 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"1102
+[u S705 . 1 `S696 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES705  1 e 1 @146 ]
+[s S296 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1160
+[s S303 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S310 . 1 `S296 1 . 1 0 `S303 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES310  1 e 1 @149 ]
+"1277
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1336
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1400
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1534
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1554
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1574
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S51 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"1599
+[s S55 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S63 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S66 . 1 `S51 1 . 1 0 `S55 1 . 1 0 `S63 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES66  1 e 1 @157 ]
+"1654
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1720
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+"1762
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S2985 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1774
+[u S2989 . 1 `S2985 1 . 1 0 ]
+[v _LATAbits LATAbits `VES2989  1 e 1 @268 ]
+"1789
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S3031 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"1804
+[u S3038 . 1 `S3031 1 . 1 0 ]
+[v _LATCbits LATCbits `VES3038  1 e 1 @270 ]
+"2156
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+[s S338 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2177
+[s S345 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S350 . 1 `S338 1 . 1 0 `S345 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES350  1 e 1 @279 ]
+"2339
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2385
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2414
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2664
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2684
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2704
+[v _SPBRG SPBRG `VEus  1 e 2 @411 ]
+"2711
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2731
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2751
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S248 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2768
+[u S257 . 1 `S248 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES257  1 e 1 @413 ]
+"2813
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S3048 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2830
+[u S3057 . 1 `S3048 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES3057  1 e 1 @414 ]
+"2875
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"2927
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3926
+[v _ACTCON ACTCON `VEuc  1 e 1 @923 ]
+"4155
+[v _PWM2DCL PWM2DCL `VEuc  1 e 1 @1556 ]
+"4191
+[v _PWM2DCH PWM2DCH `VEuc  1 e 1 @1557 ]
+"4261
+[v _PWM2CON PWM2CON `VEuc  1 e 1 @1558 ]
+"4629
+[v _UCON UCON `VEuc  1 e 1 @3726 ]
+[s S724 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"4645
+[u S732 . 1 `S724 1 . 1 0 ]
+[v _UCONbits UCONbits `VES732  1 e 1 @3726 ]
+"4680
+[v _USTAT USTAT `VEuc  1 e 1 @3727 ]
+"4740
+[v _UIR UIR `VEuc  1 e 1 @3728 ]
+[s S744 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"4756
+[u S752 . 1 `S744 1 . 1 0 ]
+[v _UIRbits UIRbits `VES752  1 e 1 @3728 ]
+"4796
+[v _UCFG UCFG `VEuc  1 e 1 @3729 ]
+"4850
+[v _UIE UIE `VEuc  1 e 1 @3730 ]
+[s S785 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"4866
+[u S793 . 1 `S785 1 . 1 0 ]
+[v _UIEbits UIEbits `VES793  1 e 1 @3730 ]
+"4906
+[v _UEIR UEIR `VEuc  1 e 1 @3731 ]
+"5058
+[v _UADDR UADDR `VEuc  1 e 1 @3734 ]
+"5114
+[v _UEIE UEIE `VEuc  1 e 1 @3735 ]
+"5165
+[v _UEP0 UEP0 `VEuc  1 e 1 @3736 ]
+[s S930 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"5179
+[u S936 . 1 `S930 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES936  1 e 1 @3736 ]
+"5209
+[v _UEP1 UEP1 `VEuc  1 e 1 @3737 ]
+"6224
+[v _PLLRDY PLLRDY `VEb  1 e 0 @1238 ]
+"6476
+[v _TMR1IF TMR1IF `VEb  1 e 0 @136 ]
+"48 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _PwmDutyCycleVoltageLimit PwmDutyCycleVoltageLimit `uc  1 e 1 0 ]
+[v _PwmDutyCycleCurrentLimit PwmDutyCycleCurrentLimit `uc  1 e 1 0 ]
+"49
+[v _Uadc Uadc `VEui  1 e 2 0 ]
+[v _Iadc Iadc `VEui  1 e 2 0 ]
+"50
+[v _Iadc_limit Iadc_limit `ui  1 e 2 0 ]
+[v _Uadc_target Uadc_target `ui  1 e 2 0 ]
+"52
+[v _MAIN_Uout_target_mV MAIN_Uout_target_mV `l  1 e 4 0 ]
+"53
+[v _MAIN_Iout_limit_mA MAIN_Iout_limit_mA `l  1 e 4 0 ]
+"55
+[v _MAIN_Uout_mV MAIN_Uout_mV `ui  1 s 2 MAIN_Uout_mV ]
+"56
+[v _MAIN_Iout_mA MAIN_Iout_mA `ui  1 s 2 MAIN_Iout_mA ]
+"57
+[v _MAIN_ovcFlag MAIN_ovcFlag `c  1 s 1 MAIN_ovcFlag ]
+[v _MAIN_upConverterFlag MAIN_upConverterFlag `c  1 s 1 MAIN_upConverterFlag ]
+"59
+[v _readBuffer readBuffer `[64]uc  1 s 64 readBuffer ]
+"60
+[v _writeBuffer writeBuffer `[64]uc  1 s 64 writeBuffer ]
+"61
+[v _writeStatusBuffer writeStatusBuffer `[64]uc  1 s 64 writeStatusBuffer ]
+"62
+[v _cmdRxBuffer cmdRxBuffer `[64]uc  1 s 64 cmdRxBuffer ]
+"64
+[v _errorMsg errorMsg `DC[13]uc  1 s 13 errorMsg ]
+"67
+[v _USB_Out_Buffer USB_Out_Buffer `[64]uc  1 s 64 USB_Out_Buffer ]
+"68
+[v _RS232_Out_Data RS232_Out_Data `[64]uc  1 s 64 RS232_Out_Data ]
+"69
+[v _NextUSBOut NextUSBOut `uc  1 e 1 0 ]
+"71
+[v _LastRS232Out LastRS232Out `uc  1 e 1 0 ]
+"72
+[v _RS232cp RS232cp `uc  1 e 1 0 ]
+"73
+[v _RS232_Out_Data_Rdy RS232_Out_Data_Rdy `uc  1 e 1 0 ]
+"238
+[v _dividerArray dividerArray `DC[5][9]ui  1 e 90 0 ]
+"56 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"141 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[v _USBDeviceState USBDeviceState `E2814  1 e 1 0 ]
+"142
+[v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
+"143
+[v _USBAlternateInterface USBAlternateInterface `[2]uc  1 e 2 0 ]
+[s S485 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"144
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S505 _BD_STAT 1 `uc 1 Val 1 0 `S485 1 . 1 0 `S494 1 . 1 0 `S501 1 . 1 0 ]
+[s S510 . 4 `S505 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S515 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S519 __BDT 4 `S510 1 . 4 0 `S515 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.4VES519  1 e 1 0 ]
+"145
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES519  1 e 2 0 ]
+"146
+[v _pBDTEntryOut pBDTEntryOut `[5]*.39VES519  1 e 10 0 ]
+"147
+[v _pBDTEntryIn pBDTEntryIn `[5]*.39VES519  1 e 10 0 ]
+"148
+[v _shortPacketStatus shortPacketStatus `uc  1 e 1 0 ]
+"149
+[v _controlTransferState controlTransferState `uc  1 e 1 0 ]
+[u S524 . 2 `*.1uc 1 bRam 2 0 `*.1DCuc 1 bRom 2 0 `*.1ui 1 wRam 2 0 `*.1DCui 1 wRom 2 0 ]
+"150
+[s S529 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S534 . 1 `S529 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S537 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S540 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S537 1 byte 2 0 ]
+[s S544 . 5 `S524 1 pSrc 2 0 `S534 1 info 1 2 `S540 1 wCount 2 3 ]
+[v _inPipes inPipes `[1]S544  1 e 5 0 ]
+[u S548 . 2 `*.1uc 1 bRam 2 0 `*.1ui 1 wRam 2 0 ]
+"151
+[s S551 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S554 . 1 `S551 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S558 . 7 `S548 1 pDst 2 0 `S554 1 info 1 2 `S540 1 wCount 2 3 `*.37(v 1 pFunc 2 5 ]
+[v _outPipes outPipes `[1]S558  1 e 7 0 ]
+"152
+[v _pDst pDst `*.4uc  1 e 1 0 ]
+"153
+[v _RemoteWakeup RemoteWakeup `uc  1 e 1 0 ]
+"154
+[v _USBBusIsSuspended USBBusIsSuspended `uc  1 e 1 0 ]
+[s S563 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"155
+[u S568 __USTAT 1 `S563 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `S568  1 e 1 0 ]
+"156
+[v _endpoint_number endpoint_number `uc  1 e 1 0 ]
+"157
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `uc  1 e 1 0 ]
+[s S571 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"158
+[u S574 . 1 `S571 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `[5]S574  1 e 5 0 ]
+"159
+[v _ep_data_out ep_data_out `[5]S574  1 e 5 0 ]
+"160
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `uc  1 e 1 0 ]
+"161
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"162
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"163
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"164
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"165
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"166
+[v _USB1msTickCount USB1msTickCount `ul  1 e 4 0 ]
+"167
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `uc  1 e 1 0 ]
+"174
+[v _BDT BDT `VE[20]S519  1 e 80 @32 ]
+[s S577 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"179
+[s S604 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S540 1 W_Value 2 2 `S540 1 W_Index 2 4 `S540 1 W_Length 2 6 ]
+[s S610 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S621 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S625 . 1 `uc 1 bmRequestType 1 0 `S621 1 . 1 0 ]
+[s S628 . 1 `S625 1 requestInfo 1 0 ]
+[s S630 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S638 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S647 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S656 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S665 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S674 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S685 . 8 `S577 1 . 8 0 `S604 1 . 8 0 `S610 1 . 8 0 `S628 1 . 1 0 `S630 1 . 8 0 `S638 1 . 8 0 `S647 1 . 8 0 `S656 1 . 8 0 `S665 1 . 8 0 `S674 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES685  1 e 8 @160 ]
+"180
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @168 ]
+"65 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _cdc_data_tx cdc_data_tx `VE[64]uc  1 e 64 @160 ]
+"66
+[v _cdc_data_rx cdc_data_rx `VE[64]uc  1 e 64 @288 ]
+[s S2044 . 7 `[7]uc 1 _byte 7 0 ]
+"76
+[s S2046 . 7 `ul 1 dwDTERate 4 0 `uc 1 bCharFormat 1 4 `uc 1 bParityType 1 5 `uc 1 bDataBits 1 6 ]
+[u S2051 _LINE_CODING 7 `S2044 1 . 7 0 `S2046 1 . 7 0 ]
+[v _line_coding line_coding `S2051  1 e 7 0 ]
+"83
+[v _cdc_rx_len cdc_rx_len `uc  1 e 1 0 ]
+"84
+[v _cdc_trf_state cdc_trf_state `uc  1 e 1 0 ]
+[s S2058 . 2 `uc 1 bLow 1 0 `uc 1 bHigh 1 1 ]
+"85
+[u S2061 _POINTER 2 `S2058 1 . 2 0 `ui 1 _word 2 0 `*.1uc 1 bRam 2 0 `*.1ui 1 wRam 2 0 `*.1DCuc 1 bRom 2 0 `*.1DCui 1 wRom 2 0 ]
+[v _pCDCSrc pCDCSrc `S2061  1 e 2 0 ]
+"86
+[v _pCDCDst pCDCDst `S2061  1 e 2 0 ]
+"87
+[v _cdc_tx_len cdc_tx_len `uc  1 e 1 0 ]
+"88
+[v _cdc_mem_type cdc_mem_type `uc  1 e 1 0 ]
+"90
+[v _CDCDataOutHandle CDCDataOutHandle `*.39v  1 e 2 0 ]
+"91
+[v _CDCDataInHandle CDCDataInHandle `*.39v  1 e 2 0 ]
+[s S2068 . 1 `uc 1 DTE_PRESENT 1 0 :1:0 
+`uc 1 CARRIER_CONTROL 1 0 :1:1 
+]
+"94
+[u S2071 _CONTROL_SIGNAL_BITMAP 1 `uc 1 _byte 1 0 `S2068 1 . 1 0 ]
+[v _control_signal_bitmap control_signal_bitmap `S2071  1 e 1 0 ]
+"110
+[v _dummy_encapsulated_cmd_response dummy_encapsulated_cmd_response `[8]uc  1 e 8 0 ]
+"65 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[v _cdc_data_tx2 cdc_data_tx2 `VE[64]uc  1 e 64 @160 ]
+"66
+[v _cdc_data_rx2 cdc_data_rx2 `VE[64]uc  1 e 64 @288 ]
+"76
+[v _line_coding2 line_coding2 `S2051  1 e 7 0 ]
+"77
+[u S2054 _CDC_NOTICE 10 `S2051 1 GetLineCoding 7 0 `S2051 1 SetLineCoding 7 0 `[10]uc 1 packet 10 0 ]
+[v _cdc_notice2 cdc_notice2 `S2054  1 e 10 0 ]
+"83
+[v _cdc_rx_len2 cdc_rx_len2 `uc  1 e 1 0 ]
+"84
+[v _cdc_trf_state2 cdc_trf_state2 `uc  1 e 1 0 ]
+"85
+[v _pCDCSrc2 pCDCSrc2 `S2061  1 e 2 0 ]
+"86
+[v _pCDCDst2 pCDCDst2 `S2061  1 e 2 0 ]
+"87
+[v _cdc_tx_len2 cdc_tx_len2 `uc  1 e 1 0 ]
+"88
+[v _cdc_mem_type2 cdc_mem_type2 `uc  1 e 1 0 ]
+"90
+[v _CDCDataOutHandle2 CDCDataOutHandle2 `*.39v  1 e 2 0 ]
+"91
+[v _CDCDataInHandle2 CDCDataInHandle2 `*.39v  1 e 2 0 ]
+"94
+[v _control_signal_bitmap2 control_signal_bitmap2 `S2071  1 e 1 0 ]
+"110
+[v _dummy_encapsulated_cmd_response2 dummy_encapsulated_cmd_response2 `[8]uc  1 e 8 0 ]
+[s S896 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"169 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_descriptors.c
+[v _device_dsc device_dsc `DCS896  1 e 18 0 ]
+"272
+[v _configDescriptor1 configDescriptor1 `DC[141]uc  1 e 141 0 ]
+[s S2869 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"452
+[v _sd000 sd000 `DCS2869  1 e 4 0 ]
+[s S2873 . 22 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[10]ui 1 string 20 2 ]
+"456
+[v _sd001 sd001 `DCS2873  1 e 22 0 ]
+[s S2877 . 50 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[24]ui 1 string 48 2 ]
+"462
+[v _sd002 sd002 `DCS2877  1 e 50 0 ]
+[s S2881 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"469
+[v _sd003 sd003 `DCS2881  1 e 52 0 ]
+"476
+[v _sd004 sd004 `DCS2877  1 e 50 0 ]
+"494
+[v _USB_CD_Ptr USB_CD_Ptr `DC[2]*.25DCuc  1 e 4 0 ]
+"500
+[v _USB_SD_Ptr USB_SD_Ptr `DC[5]*.25DCuc  1 e 10 0 ]
+"450 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"487
+} 0
+"410
+[v _main_overcurrentProtection main_overcurrentProtection `(v  1 e 1 0 ]
+{
+"412
+[v main_overcurrentProtection@tOut tOut `uc  1 s 1 tOut ]
+"413
+[v main_overcurrentProtection@Iadc_avg Iadc_avg `i  1 s 2 Iadc_avg ]
+"434
+} 0
+"287
+[v _main_CommunicationHandler main_CommunicationHandler `(v  1 e 1 0 ]
+{
+"313
+[v main_CommunicationHandler@i i `uc  1 a 1 41 ]
+"314
+[v main_CommunicationHandler@numBytesRead numBytesRead `uc  1 a 1 40 ]
+"289
+[v main_CommunicationHandler@step step `uc  1 s 1 step ]
+"290
+[v main_CommunicationHandler@cmdRxBufferPointer cmdRxBufferPointer `uc  1 s 1 cmdRxBufferPointer ]
+"408
+} 0
+"556 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _putUSBUSART putUSBUSART `(v  1 e 1 0 ]
+{
+[v putUSBUSART@data data `*.39uc  1 p 2 0 ]
+[v putUSBUSART@length length `uc  1 p 1 2 ]
+"587
+} 0
+"245 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _my_uitoa my_uitoa `(v  1 e 1 0 ]
+{
+[v my_uitoa@str str `*.7uc  1 a 1 wreg ]
+"247
+[v my_uitoa@ziffer ziffer `c  1 a 1 21 ]
+[v my_uitoa@powerOfTen powerOfTen `c  1 a 1 20 ]
+"248
+[v my_uitoa@strIncremet strIncremet `uc  1 a 1 18 ]
+"245
+[v my_uitoa@str str `*.7uc  1 a 1 wreg ]
+[v my_uitoa@num num `ui  1 p 2 6 ]
+"247
+[v my_uitoa@str str `*.7uc  1 a 1 19 ]
+"264
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 6 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"213 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _main_SetDcDcRegulator main_SetDcDcRegulator `(v  1 e 1 0 ]
+{
+[v main_SetDcDcRegulator@pU_mV pU_mV `*.6l  1 a 1 wreg ]
+[v main_SetDcDcRegulator@pU_mV pU_mV `*.6l  1 a 1 wreg ]
+[v main_SetDcDcRegulator@pI_mA pI_mA `*.6l  1 p 1 32 ]
+"216
+[v main_SetDcDcRegulator@pU_mV pU_mV `*.6l  1 a 1 37 ]
+"235
+} 0
+"76
+[v _main_switchStepUp_Down main_switchStepUp_Down `(v  1 e 1 0 ]
+{
+[v main_switchStepUp_Down@Uout_mV Uout_mV `l  1 p 4 27 ]
+"102
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 23 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 22 ]
+[v ___aldiv@counter counter `uc  1 a 1 21 ]
+"6
+[v ___aldiv@divisor divisor `l  1 p 4 12 ]
+[v ___aldiv@dividend dividend `l  1 p 4 16 ]
+"42
+} 0
+"71 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM2_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"78
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 21 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 25 ]
+"6
+[v ___lldiv@divisor divisor `ul  1 p 4 12 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 16 ]
+"31
+} 0
+"485 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+{
+[v getsUSBUSART@buffer buffer `*.9uc  1 a 1 wreg ]
+[v getsUSBUSART@buffer buffer `*.9uc  1 a 1 wreg ]
+[v getsUSBUSART@len len `uc  1 p 1 11 ]
+"487
+[v getsUSBUSART@buffer buffer `*.9uc  1 a 1 14 ]
+"514
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+[v atoi@s s `*.7DCuc  1 a 1 wreg ]
+"7
+[v atoi@a a `i  1 a 2 11 ]
+"8
+[v atoi@sign sign `uc  1 a 1 10 ]
+"5
+[v atoi@s s `*.7DCuc  1 a 1 wreg ]
+[v atoi@s s `*.7DCuc  1 a 1 13 ]
+"24
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"132 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+[v _TMR1_Reload TMR1_Reload `(v  1 e 1 0 ]
+{
+"137
+} 0
+"836 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _CDCTxService CDCTxService `(v  1 e 1 0 ]
+{
+"838
+[v CDCTxService@byte_to_send byte_to_send `uc  1 a 1 13 ]
+"839
+[v CDCTxService@i i `uc  1 a 1 12 ]
+"932
+} 0
+"995 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S485 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"997
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S505 _BD_STAT 1 `uc 1 Val 1 0 `S485 1 . 1 0 `S494 1 . 1 0 `S501 1 . 1 0 ]
+[s S510 . 4 `S505 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S515 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S519 __BDT 4 `S510 1 . 4 0 `S515 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES519  1 a 2 9 ]
+"995
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1000
+[v USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1047
+} 0
+"277
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"296
+[v USBDeviceInit@p p `*.39uc  1 a 2 1 ]
+[v USBDeviceInit@i_1118 i `uc  1 a 1 3 ]
+"279
+[v USBDeviceInit@i i `uc  1 a 1 4 ]
+"371
+} 0
+"72 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"102
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"106
+} 0
+"63 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"83
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"87
+} 0
+"63 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"89
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"93
+} 0
+"57 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"51 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"86 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"100
+} 0
+"57 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"61
+} 0
+"55 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"64 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"95
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+"99
+} 0
+"493 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"496
+[v INTERRUPT_InterruptManager@pwm pwm `ui  1 a 2 12 ]
+"495
+[v INTERRUPT_InterruptManager@pwmCorrection pwmCorrection `c  1 s 1 pwmCorrection ]
+"528
+} 0
+"71 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+[v i1_PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v i1PWM2_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"78
+} 0
+"95 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+[v i1_ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+"99
+} 0
+"126 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _main_CDC_to_RS485_Tasks main_CDC_to_RS485_Tasks `(v  1 e 1 0 ]
+{
+"210
+} 0
+"556 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[v _putUSBUSART2 putUSBUSART2 `(v  1 e 1 0 ]
+{
+[v putUSBUSART2@data data `*.8uc  1 a 1 wreg ]
+[v putUSBUSART2@data data `*.8uc  1 a 1 wreg ]
+[v putUSBUSART2@length length `uc  1 p 1 0 ]
+"582
+[v putUSBUSART2@data data `*.8uc  1 a 1 2 ]
+"587
+} 0
+"485
+[v _getsUSBUSART2 getsUSBUSART2 `(uc  1 e 1 0 ]
+{
+[v getsUSBUSART2@buffer buffer `*.9uc  1 a 1 wreg ]
+[v getsUSBUSART2@buffer buffer `*.9uc  1 a 1 wreg ]
+[v getsUSBUSART2@len len `uc  1 p 1 11 ]
+"487
+[v getsUSBUSART2@buffer buffer `*.9uc  1 a 1 0 ]
+"514
+} 0
+"66 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+[v _USART_putcUSART USART_putcUSART `(v  1 e 1 0 ]
+{
+[v USART_putcUSART@c c `uc  1 a 1 wreg ]
+[v USART_putcUSART@c c `uc  1 a 1 wreg ]
+"68
+[v USART_putcUSART@c c `uc  1 a 1 0 ]
+"69
+} 0
+"142
+[v _USART_getcUSART USART_getcUSART `(uc  1 e 1 0 ]
+{
+"144
+[v USART_getcUSART@c c `uc  1 a 1 1 ]
+"161
+} 0
+"836 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[v _CDCTxService2 CDCTxService2 `(v  1 e 1 0 ]
+{
+"838
+[v CDCTxService2@byte_to_send byte_to_send `uc  1 a 1 13 ]
+"839
+[v CDCTxService2@i i `uc  1 a 1 12 ]
+"932
+} 0
+"477 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"479
+[v USBDeviceTasks@i i `uc  1 a 1 15 ]
+"827
+} 0
+"277
+[v i1_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+[v i1USBDeviceInit@p USBDeviceInit `*.39uc  1 a 2 1 ]
+[v i1USBDeviceInit@i USBDeviceInit `uc  1 a 1 4 ]
+[v i1USBDeviceInit@i_1118 USBDeviceInit `uc  1 a 1 3 ]
+"371
+} 0
+"2303
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+{
+"2349
+} 0
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+{
+"2286
+} 0
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+{
+"2227
+} 0
+"3025
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+{
+"3043
+} 0
+"2372
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+{
+"2423
+} 0
+"2465
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+{
+"2515
+} 0
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+{
+"1748
+} 0
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+{
+"1518
+} 0
+"2686
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+{
+"2733
+} 0
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+{
+"1976
+[v USBStdSetCfgHandler@p p `*.39uc  1 a 2 7 ]
+[v USBStdSetCfgHandler@i_1857 i `uc  1 a 1 9 ]
+"1970
+[v USBStdSetCfgHandler@i i `uc  1 a 1 10 ]
+"2024
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memset.c
+[v i1_memset memset `(*.39v  1 e 1 0 ]
+{
+[v i1memset@p memset `*.39uc  1 a 2 6 ]
+[v i1memset@p1 p1 `*.39v  1 p 2 0 ]
+[v i1memset@c c `i  1 p 2 2 ]
+[v i1memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"2129 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+{
+[s S485 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2161
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S505 _BD_STAT 1 `uc 1 Val 1 0 `S485 1 . 1 0 `S494 1 . 1 0 `S501 1 . 1 0 ]
+[s S510 . 4 `S505 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S515 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S519 __BDT 4 `S510 1 . 4 0 `S515 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S519  1 a 2 1 ]
+"2184
+} 0
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+{
+"2112
+} 0
+"2754
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+{
+[s S485 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2756
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S505 _BD_STAT 1 `uc 1 Val 1 0 `S485 1 . 1 0 `S494 1 . 1 0 `S501 1 . 1 0 ]
+[s S510 . 4 `S505 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S515 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S519 __BDT 4 `S510 1 . 4 0 `S515 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S519  1 a 2 11 ]
+"2761
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 8 ]
+[s S571 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2757
+[u S574 . 1 `S571 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S574  1 a 1 10 ]
+"2980
+} 0
+"53 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E2485  1 p 2 0 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 2 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 4 ]
+"120
+} 0
+"266 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _main_Communication_Initialize main_Communication_Initialize `(v  1 e 1 0 ]
+{
+"268
+[v main_Communication_Initialize@i i `uc  1 a 1 1 ]
+"285
+} 0
+"132 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+[v i1_TMR1_Reload TMR1_Reload `(v  1 e 1 0 ]
+{
+"137
+} 0
+"104 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+[v _main_CDC_to_RS485_Initialize main_CDC_to_RS485_Initialize `(v  1 e 1 0 ]
+{
+"106
+[v main_CDC_to_RS485_Initialize@i i `uc  1 a 1 1 ]
+"121
+} 0
+"147 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[v _USBCheckCDCRequest2 USBCheckCDCRequest2 `(v  1 e 1 0 ]
+{
+"260
+} 0
+"147 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 1 0 ]
+{
+"260
+} 0
+"294 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+[v _CDCInitEP2 CDCInitEP2 `(v  1 e 1 0 ]
+{
+"347
+} 0
+"294 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+[v _CDCInitEP CDCInitEP `(v  1 e 1 0 ]
+{
+"347
+} 0
+"995 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+[v i1_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+{
+[v i1USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S485 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S505 _BD_STAT 1 `uc 1 Val 1 0 `S485 1 . 1 0 `S494 1 . 1 0 `S501 1 . 1 0 ]
+[s S510 . 4 `S505 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S515 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S519 __BDT 4 `S510 1 . 4 0 `S515 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i1USBTransferOnePacket@handle USBTransferOnePacket `*.39VES519  1 a 2 9 ]
+[v i1USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i1USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i1USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i1USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1000
+[v i1USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1047
+} 0
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"880
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 10 ]
+"878
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 7 ]
+"884
+[v USBEnableEndpoint@ep ep `uc  1 a 1 12 ]
+"902
+} 0
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S485 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1545
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S505 _BD_STAT 1 `uc 1 Val 1 0 `S485 1 . 1 0 `S494 1 . 1 0 `S501 1 . 1 0 ]
+[s S510 . 4 `S505 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S515 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S519 __BDT 4 `S510 1 . 4 0 `S515 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.4VES519  1 a 1 6 ]
+"1543
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1549
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 5 ]
+"1585
+} 0
+"2538
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+{
+"2567
+} 0
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+{
+"1854
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 11 ]
+"1855
+[v USBCtrlTrfRxService@i i `uc  1 a 1 10 ]
+"1947
+} 0
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+{
+"1459
+} 0
+"2592
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+{
+"2594
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 10 ]
+"2667
+} 0
+"1771
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+{
+"1773
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 2 ]
+"1825
+} 0
+"92 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+[v _USART_mySetLineCodingHandler USART_mySetLineCodingHandler `(v  1 e 1 0 ]
+{
+"118
+[v USART_mySetLineCodingHandler@dwBaud dwBaud `ul  1 a 4 4 ]
+"123
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+[v i1___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+[v i1___lldiv@quotient __lldiv `ul  1 a 4 9 ]
+[v i1___lldiv@counter __lldiv `uc  1 a 1 13 ]
+[v i1___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v i1___lldiv@dividend dividend `ul  1 p 4 4 ]
+"31
+} 0
+"87 C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+{
+[v ADC_SelectChannel@channel channel `E2468  1 a 1 wreg ]
+[v ADC_SelectChannel@channel channel `E2468  1 a 1 wreg ]
+"90
+[v ADC_SelectChannel@channel channel `E2468  1 a 1 1 ]
+"93
+} 0
+"102
+[v _ADC_IsConversionDone ADC_IsConversionDone `(uc  1 e 1 0 ]
+{
+"106
+} 0
+"108
+[v _ADC_GetConversionResult ADC_GetConversionResult `(ui  1 e 2 0 ]
+{
+"112
+} 0

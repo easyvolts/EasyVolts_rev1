@@ -1,0 +1,2469 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug\EasyPowerUSB.X.debug.obj
+cinit CODE 0 EB EB 5F 2
+text1 CODE 0 1195 1195 4A 2
+text2 CODE 0 33C 33C 19C 2
+text3 CODE 0 1E59 1E59 17 2
+text4 CODE 0 A8F A8F 92 2
+text5 CODE 0 1EBA 1EBA 19 2
+text6 CODE 0 4D8 4D8 135 2
+text7 CODE 0 BB5 BB5 95 2
+text8 CODE 0 1FD0 1FD0 30 2
+text9 CODE 0 877 877 82 2
+text10 CODE 0 1EA1 1EA1 19 2
+text11 CODE 0 1283 1283 53 2
+text12 CODE 0 12D6 12D6 54 2
+text13 CODE 0 1617 1617 71 2
+text14 CODE 0 1DE3 1DE3 F 2
+text15 CODE 0 1F0A 1F0A 1C 2
+text16 CODE 0 1DAC 1DAC 9 2
+text17 CODE 0 D98 D98 B3 2
+text18 CODE 0 97C 97C 84 2
+text19 CODE 0 E4B E4B B9 2
+text20 CODE 0 1ED3 1ED3 1B 2
+text21 CODE 0 1D78 1D78 4 2
+text22 CODE 0 1DA3 1DA3 9 2
+text23 CODE 0 1D71 1D71 3 2
+text24 CODE 0 1E02 1E02 14 2
+text25 CODE 0 1D6E 1D6E 3 2
+text26 CODE 0 1D87 1D87 6 2
+text27 CODE 0 1E42 1E42 17 2
+text28 CODE 0 1DBF 1DBF B 2
+text29 CODE 0 1D74 1D74 4 2
+text30 CODE 0 1DCA 1DCA C 2
+text31 CODE 0 1DB5 1DB5 A 2
+text32 CODE 0 1D6B 1D6B 3 2
+text34 CODE 0 1E2C 1E2C 16 2
+text35 CODE 0 1D68 1D68 3 2
+text36 CODE 0 1688 1688 79 2
+text37 CODE 0 1E16 1E16 16 2
+text38 CODE 0 1231 1231 52 2
+text39 CODE 0 1D7C 1D7C 5 2
+text40 CODE 0 1DF2 1DF2 10 2
+text41 CODE 0 C4A C4A 9E 2
+text42 CODE 0 F04 F04 FC 2
+text43 CODE 0 CE8 CE8 B0 2
+text44 CODE 0 1F65 1F65 20 2
+text45 CODE 0 1EEE 1EEE 1C 2
+text46 CODE 0 1000 1000 25 2
+text47 CODE 0 1E88 1E88 19 2
+text48 CODE 0 142E 142E 5A 2
+text49 CODE 0 137F 137F 55 2
+text50 CODE 0 B21 B21 94 2
+text51 CODE 0 1488 1488 5D 2
+text52 CODE 0 13D4 13D4 5A 2
+text53 CODE 0 A00 A00 8F 2
+text54 CODE 0 1E70 1E70 18 2
+text55 CODE 0 132A 132A 55 2
+text56 CODE 0 1701 1701 7F 2
+text57 CODE 0 60D 60D 126 2
+text58 CODE 0 1093 1093 3C 2
+text59 CODE 0 1F85 1F85 24 2
+text60 CODE 0 1D9A 1D9A 9 2
+text61 CODE 0 1FA9 1FA9 27 2
+text62 CODE 0 1545 1545 64 2
+text63 CODE 0 14E5 14E5 60 2
+text64 CODE 0 105C 105C 37 2
+text65 CODE 0 1025 1025 37 2
+text66 CODE 0 8F9 8F9 83 2
+text67 CODE 0 1F45 1F45 20 2
+text68 CODE 0 110C 110C 42 2
+text69 CODE 0 10CF 10CF 3D 2
+text70 CODE 0 733 733 CB 2
+text71 CODE 0 15A9 15A9 6E 2
+text72 CODE 0 1780 1780 80 2
+text73 CODE 0 804 804 73 2
+text74 CODE 0 114E 114E 47 2
+text75 CODE 0 11DF 11DF 52 2
+text76 CODE 0 1DD6 1DD6 D 2
+text77 CODE 0 1D93 1D93 7 2
+text78 CODE 0 1D81 1D81 6 2
+maintext CODE 0 1F26 1F26 1F 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK1 BANK1 1 E0 E0 10 1
+cstackBANK2 BANK2 1 160 160 E 1
+cstackBANK3 BANK3 1 1A0 1A0 2B 1
+intentry CODE 0 4 4 E5 2
+bssBANK2 BANK2 1 16E 16E 2 1
+bssBANK3 BANK3 1 1CB 1CB 25 1
+bssBANK4 BANK4 1 220 220 4A 1
+bssBANK5 BANK5 1 2A0 2A0 4B 1
+bssBANK6 BANK6 1 320 320 40 1
+bssBANK7 BANK7 1 3A0 3A0 40 1
+bssBANK8 BANK8 1 420 420 40 1
+bssBANK9 BANK9 1 4A0 4A0 40 1
+stringtext STRCODE 0 14A 14A 1F2 2
+idataBANK4 CODE 0 800 800 4 2
+swtext1 CONST 0 1800 1800 1A 2
+dataBANK4 BANK4 1 26A 26A 4 1
+clrtext CODE 0 1D8D 1D8D 6 2
+bssBANK10 BANK10 1 520 520 40 1
+bssBANK11 BANK11 1 5A0 5A0 40 1
+$C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+reset_vec CODE 0 0 0 3 2
+end_init CODE 0 E9 E9 2 2
+config CONFIG 0 8007 8007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 26E-26F 1
+RAM 2EB-2EF 1
+RAM 360-36F 1
+RAM 3E0-3EF 1
+RAM 460-46F 1
+RAM 4E0-4EF 1
+RAM 560-56F 1
+RAM 5E0-5EF 1
+RAM 620-64F 1
+BANK4 26E-26F 1
+BANK5 2EB-2EF 1
+BANK6 360-36F 1
+BANK7 3E0-3EF 1
+BANK8 460-46F 1
+BANK9 4E0-4EF 1
+CONST 3-3 2
+CONST 7FE-7FF 2
+CONST 181A-1D67 2
+ENTRY 3-3 2
+ENTRY 7FE-7FF 2
+ENTRY 181A-1D67 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 23B0-23EF 1
+CODE 3-3 2
+CODE 7FE-7FF 2
+CODE 181A-1D67 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 560-56F 1
+BANK11 5E0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+STRCODE 3-3 2
+STRCODE 7FE-7FF 2
+STRCODE 181A-1D67 2
+STRING 3-3 2
+STRING 7FE-7FF 2
+STRING 181A-1D67 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\EasyPowerUSB.X.debug.obj
+EB cinit CODE >5510:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+EB cinit CODE >5513:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+EB cinit CODE >5803:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+EC cinit CODE >5804:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+EF cinit CODE >5805:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+F0 cinit CODE >5806:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+F3 cinit CODE >5807:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+F4 cinit CODE >5808:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+F7 cinit CODE >5809:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+F8 cinit CODE >5810:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+FB cinit CODE >5811:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+FC cinit CODE >5828:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+FD cinit CODE >5829:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+FE cinit CODE >5830:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+FF cinit CODE >5834:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+100 cinit CODE >5835:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+101 cinit CODE >5836:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+102 cinit CODE >5837:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+103 cinit CODE >5838:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+104 cinit CODE >5839:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+107 cinit CODE >5843:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+108 cinit CODE >5844:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+109 cinit CODE >5845:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+10A cinit CODE >5846:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+10B cinit CODE >5847:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+10C cinit CODE >5848:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+10F cinit CODE >5852:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+110 cinit CODE >5853:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+111 cinit CODE >5854:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+112 cinit CODE >5855:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+113 cinit CODE >5856:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+114 cinit CODE >5857:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+117 cinit CODE >5861:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+118 cinit CODE >5862:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+119 cinit CODE >5863:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+11A cinit CODE >5864:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+11B cinit CODE >5865:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+11C cinit CODE >5866:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+11F cinit CODE >5870:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+120 cinit CODE >5871:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+121 cinit CODE >5872:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+122 cinit CODE >5873:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+123 cinit CODE >5874:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+124 cinit CODE >5875:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+127 cinit CODE >5879:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+128 cinit CODE >5880:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+129 cinit CODE >5881:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+12A cinit CODE >5882:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+12B cinit CODE >5883:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+12C cinit CODE >5884:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+12F cinit CODE >5888:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+130 cinit CODE >5889:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+131 cinit CODE >5890:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+132 cinit CODE >5891:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+133 cinit CODE >5892:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+134 cinit CODE >5893:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+137 cinit CODE >5897:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+138 cinit CODE >5898:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+139 cinit CODE >5899:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+13A cinit CODE >5900:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+13B cinit CODE >5901:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+13C cinit CODE >5902:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+13F cinit CODE >5906:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+140 cinit CODE >5907:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+141 cinit CODE >5908:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+142 cinit CODE >5909:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+143 cinit CODE >5910:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+144 cinit CODE >5911:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+146 cinit CODE >5917:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+146 cinit CODE >5919:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+147 cinit CODE >5920:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+148 cinit CODE >5921:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+4 intentry CODE >481:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+A intentry CODE >486:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+36 intentry CODE >487:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+39 intentry CODE >488:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3D intentry CODE >489:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+58 intentry CODE >490:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+73 intentry CODE >492:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+83 intentry CODE >493:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+87 intentry CODE >495:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+94 intentry CODE >496:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+A0 intentry CODE >497:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+AD intentry CODE >498:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B6 intentry CODE >499:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B9 intentry CODE >501:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C1 intentry CODE >505:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C4 intentry CODE >506:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C7 intentry CODE >507:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+CD intentry CODE >508:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+D5 intentry CODE >509:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+D8 intentry CODE >510:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+DC intentry CODE >511:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+DF intentry CODE >512:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+E1 intentry CODE >515:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+E3 intentry CODE >516:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1D81 text78 CODE >108:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D81 text78 CODE >111:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D93 text77 CODE >102:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D93 text77 CODE >105:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DD6 text76 CODE >87:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DD7 text76 CODE >90:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DE1 text76 CODE >92:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DE2 text76 CODE >93:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+11DF text75 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11DF text75 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11E7 text75 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11ED text75 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11EF text75 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11F1 text75 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11F8 text75 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11FC text75 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+11FD text75 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1204 text75 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1214 text75 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+121C text75 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+121D text75 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1224 text75 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1228 text75 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+114E text74 CODE >92:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+114E text74 CODE >116:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1157 text74 CODE >119:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1177 text74 CODE >120:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1181 text74 CODE >121:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1194 text74 CODE >123:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+804 text73 CODE >1771:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+804 text73 CODE >1777:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+808 text73 CODE >1778:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+810 text73 CODE >1780:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+814 text73 CODE >1787:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+817 text73 CODE >1789:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+819 text73 CODE >1790:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+81A text73 CODE >1791:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+81D text73 CODE >1793:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+821 text73 CODE >1795:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+821 text73 CODE >1799:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+828 text73 CODE >1804:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+834 text73 CODE >1808:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+839 text73 CODE >1809:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+83D text73 CODE >1813:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+854 text73 CODE >1814:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+856 text73 CODE >1811:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+85A text73 CODE >1821:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+871 text73 CODE >1822:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+873 text73 CODE >1819:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1780 text72 CODE >2592:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1780 text72 CODE >2596:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+178A text72 CODE >2599:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1791 text72 CODE >2604:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1795 text72 CODE >2606:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+179A text72 CODE >2607:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+179D text72 CODE >2609:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+179F text72 CODE >2613:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17A5 text72 CODE >2618:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17A8 text72 CODE >2620:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17B8 text72 CODE >2621:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17BB text72 CODE >2627:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17C0 text72 CODE >2631:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17C6 text72 CODE >2632:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17CB text72 CODE >2633:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17CC text72 CODE >2636:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17D0 text72 CODE >2638:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17D7 text72 CODE >2639:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17DC text72 CODE >2640:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17DD text72 CODE >2643:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17E4 text72 CODE >2644:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17E9 text72 CODE >2647:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17EA text72 CODE >2648:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17EA text72 CODE >2653:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17ED text72 CODE >2655:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17F1 text72 CODE >2657:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17FB text72 CODE >2659:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+17FD text72 CODE >2662:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15A9 text71 CODE >1416:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15A9 text71 CODE >1423:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15AD text71 CODE >1425:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15B1 text71 CODE >1426:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15B4 text71 CODE >1428:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15B8 text71 CODE >1432:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15BD text71 CODE >1434:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15C3 text71 CODE >1435:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15C9 text71 CODE >1436:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15CE text71 CODE >1437:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15CF text71 CODE >1438:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15D2 text71 CODE >1440:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15D4 text71 CODE >1445:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15DC text71 CODE >1446:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15E8 text71 CODE >1447:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15EF text71 CODE >1448:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15F3 text71 CODE >1449:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+15F6 text71 CODE >1453:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1603 text71 CODE >1454:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1610 text71 CODE >1455:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1616 text71 CODE >1457:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+733 text70 CODE >1852:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+733 text70 CODE >1859:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+73A text70 CODE >1865:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+748 text70 CODE >1867:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+74D text70 CODE >1868:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+74D text70 CODE >1870:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+758 text70 CODE >1874:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+75E text70 CODE >1876:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+771 text70 CODE >1874:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+777 text70 CODE >1881:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+77C text70 CODE >1883:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+78C text70 CODE >1884:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+79B text70 CODE >1885:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7A1 text70 CODE >1887:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7A8 text70 CODE >1888:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7AD text70 CODE >1889:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7AE text70 CODE >1892:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7B5 text70 CODE >1893:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7BA text70 CODE >1895:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7BB text70 CODE >1901:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7CB text70 CODE >1902:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7DA text70 CODE >1906:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7E1 text70 CODE >1907:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7E6 text70 CODE >1914:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7EB text70 CODE >1921:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7F5 text70 CODE >1927:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7F7 text70 CODE >1941:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7FB text70 CODE >1943:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+7FD text70 CODE >1944:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10CF text69 CODE >2538:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10CF text69 CODE >2540:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10D4 text69 CODE >2542:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10D6 text69 CODE >2543:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10D7 text69 CODE >2548:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10D9 text69 CODE >2555:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10DD text69 CODE >2557:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10ED text69 CODE >2558:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+10FC text69 CODE >2559:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1103 text69 CODE >2560:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1108 text69 CODE >2561:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1109 text69 CODE >2564:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+110B text69 CODE >2565:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+110C text68 CODE >1543:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+110D text68 CODE >1549:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1111 text68 CODE >1550:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+112A text68 CODE >1552:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+112E text68 CODE >1557:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1131 text68 CODE >1559:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+113A text68 CODE >1560:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+113B text68 CODE >1563:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1144 text68 CODE >1567:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1148 text68 CODE >1568:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+114D text68 CODE >1585:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F45 text67 CODE >878:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F46 text67 CODE >884:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F48 text67 CODE >886:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F4D text67 CODE >888:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F4F text67 CODE >890:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F54 text67 CODE >899:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F5E text67 CODE >901:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F64 text67 CODE >902:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+8F9 text66 CODE >995:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+8FA text66 CODE >1000:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+8FD text66 CODE >1003:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+906 text66 CODE >1008:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+90F text66 CODE >1013:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+913 text66 CODE >1015:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+916 text66 CODE >1029:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+925 text66 CODE >1030:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+931 text66 CODE >1031:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+939 text66 CODE >1032:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+93E text66 CODE >1033:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+943 text66 CODE >1036:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+946 text66 CODE >1039:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+95E text66 CODE >1040:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+95F text66 CODE >1044:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+977 text66 CODE >1046:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1025 text65 CODE >294:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1025 text65 CODE >297:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+102E text65 CODE >298:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+102F text65 CODE >299:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1030 text65 CODE >300:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1034 text65 CODE >302:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1036 text65 CODE >315:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+103E text65 CODE >316:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1046 text65 CODE >318:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1057 text65 CODE >319:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1059 text65 CODE >346:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+105B text65 CODE >347:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+105C text64 CODE >294:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+105C text64 CODE >297:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1065 text64 CODE >298:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1066 text64 CODE >299:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1067 text64 CODE >300:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+106B text64 CODE >302:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+106D text64 CODE >315:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1075 text64 CODE >316:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+107D text64 CODE >318:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+108E text64 CODE >319:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1090 text64 CODE >346:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1092 text64 CODE >347:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+14E5 text63 CODE >147:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+14E5 text63 CODE >152:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+14EB text63 CODE >157:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+14F1 text63 CODE >164:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+14F8 text63 CODE >171:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+14FD text63 CODE >172:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1501 text63 CODE >173:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1502 text63 CODE >174:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1503 text63 CODE >175:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1504 text63 CODE >178:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1509 text63 CODE >179:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+150A text63 CODE >180:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+150B text63 CODE >185:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1513 text63 CODE >186:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1517 text63 CODE >187:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1519 text63 CODE >188:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+151A text63 CODE >189:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+151B text63 CODE >192:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1528 text63 CODE >196:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1529 text63 CODE >199:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+152F text63 CODE >231:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1531 text63 CODE >258:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1532 text63 CODE >166:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1544 text63 CODE >260:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1545 text62 CODE >147:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1545 text62 CODE >152:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+154B text62 CODE >157:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1551 text62 CODE >164:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+155A text62 CODE >171:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+155F text62 CODE >172:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1563 text62 CODE >173:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1564 text62 CODE >174:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1565 text62 CODE >175:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1566 text62 CODE >178:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+156B text62 CODE >179:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+156C text62 CODE >180:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+156D text62 CODE >185:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1575 text62 CODE >186:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1579 text62 CODE >187:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+157D text62 CODE >188:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+157E text62 CODE >189:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+157F text62 CODE >192:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+158C text62 CODE >196:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+158D text62 CODE >199:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1593 text62 CODE >231:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1595 text62 CODE >258:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1596 text62 CODE >166:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+15A8 text62 CODE >260:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1FA9 text61 CODE >92:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FA9 text61 CODE >96:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FAB text61 CODE >97:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FAF text61 CODE >98:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FB0 text61 CODE >99:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FB8 text61 CODE >102:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FBD text61 CODE >104:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FC3 text61 CODE >102:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FCB text61 CODE >107:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FCD text61 CODE >108:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FCF text61 CODE >109:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1D9A text60 CODE >132:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1D9A text60 CODE >135:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1D9E text60 CODE >136:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1DA2 text60 CODE >137:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1F85 text59 CODE >254:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F85 text59 CODE >258:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F87 text59 CODE >259:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F8B text59 CODE >260:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F8C text59 CODE >261:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F94 text59 CODE >264:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F96 text59 CODE >266:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F99 text59 CODE >269:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F9E text59 CODE >271:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1FA4 text59 CODE >269:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1093 text58 CODE >53:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+1093 text58 CODE >55:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+1094 text58 CODE >93:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+1097 text58 CODE >94:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+109A text58 CODE >96:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+109D text58 CODE >97:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+109F text58 CODE >101:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+10A0 text58 CODE >106:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+10A3 text58 CODE >107:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+10A5 text58 CODE >118:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+10A6 text58 CODE >55:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+10CE text58 CODE >120:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/usb_events.c
+60D text57 CODE >2754:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+60D text57 CODE >2800:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+616 text57 CODE >2802:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+618 text57 CODE >2803:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+61D text57 CODE >2804:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+621 text57 CODE >2806:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+623 text57 CODE >2813:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+63D text57 CODE >2817:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+63E text57 CODE >2820:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+641 text57 CODE >2822:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+64C text57 CODE >2823:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+650 text57 CODE >2827:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+65B text57 CODE >2828:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+665 text57 CODE >2835:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+667 text57 CODE >2837:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+671 text57 CODE >2841:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+677 text57 CODE >2847:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+679 text57 CODE >2849:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+684 text57 CODE >2850:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+685 text57 CODE >2853:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+690 text57 CODE >2857:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+694 text57 CODE >2859:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+69A text57 CODE >2863:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+69C text57 CODE >2865:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6A0 text57 CODE >2869:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6A7 text57 CODE >2874:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6AC text57 CODE >2875:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6B1 text57 CODE >2876:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6B2 text57 CODE >2882:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6B8 text57 CODE >2884:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6BE text57 CODE >2888:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6C6 text57 CODE >2889:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6CB text57 CODE >2890:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6DA text57 CODE >2891:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6DB text57 CODE >2895:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6E1 text57 CODE >2900:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6E8 text57 CODE >2906:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6F0 text57 CODE >2908:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6F2 text57 CODE >2910:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6F6 text57 CODE >2914:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+6FD text57 CODE >2917:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+705 text57 CODE >2920:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+714 text57 CODE >2921:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+715 text57 CODE >2925:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+71E text57 CODE >2973:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+72A text57 CODE >2977:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+732 text57 CODE >2978:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1701 text56 CODE >2043:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1701 text56 CODE >2045:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1706 text56 CODE >2047:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+170B text56 CODE >2049:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+170C text56 CODE >2055:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1711 text56 CODE >2057:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1715 text56 CODE >2058:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1716 text56 CODE >2063:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+171A text56 CODE >2068:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+172A text56 CODE >2074:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1739 text56 CODE >2075:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1748 text56 CODE >2076:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1749 text56 CODE >2079:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+174B text56 CODE >2081:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+174C text56 CODE >2086:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1751 text56 CODE >2089:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1761 text56 CODE >2091:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+176C text56 CODE >2092:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+176D text56 CODE >2104:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+176F text56 CODE >2106:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1770 text56 CODE >2108:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1772 text56 CODE >2110:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1773 text56 CODE >2049:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+177F text56 CODE >2110:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+132A text55 CODE >2129:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+132A text55 CODE >2131:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+132C text55 CODE >2132:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+132D text55 CODE >2134:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+132E text55 CODE >2136:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+132E text55 CODE >2137:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1330 text55 CODE >2147:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1334 text55 CODE >2149:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1336 text55 CODE >2151:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1337 text55 CODE >2152:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1337 text55 CODE >2153:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1339 text55 CODE >2154:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+133A text55 CODE >2155:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+133A text55 CODE >2156:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+133C text55 CODE >2163:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+133F text55 CODE >2165:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+134A text55 CODE >2169:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1355 text55 CODE >2172:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1361 text55 CODE >2173:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1365 text55 CODE >2176:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1366 text55 CODE >2134:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1372 text55 CODE >2176:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1372 text55 CODE >2178:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1375 text55 CODE >2180:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1379 text55 CODE >2181:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+137A text55 CODE >2182:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E70 text54 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1E70 text54 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1E74 text54 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1E7D text54 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1E87 text54 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+A00 text53 CODE >1968:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A00 text53 CODE >1973:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A02 text53 CODE >1976:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A1D text53 CODE >1979:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A2B text53 CODE >1982:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A2D text53 CODE >1987:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A33 text53 CODE >1989:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A39 text53 CODE >1990:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A3F text53 CODE >1987:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A47 text53 CODE >1994:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A55 text53 CODE >1997:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A57 text53 CODE >1999:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A5C text53 CODE >2002:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A62 text53 CODE >2003:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A69 text53 CODE >2006:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A6F text53 CODE >2009:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A72 text53 CODE >2012:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A78 text53 CODE >2013:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A79 text53 CODE >2017:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+A88 text53 CODE >2022:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1800 swtext1 CONST >2690:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13D4 text52 CODE >2686:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13D4 text52 CODE >2688:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13DC text52 CODE >2692:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13DC text52 CODE >2693:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13DE text52 CODE >2694:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13E4 text52 CODE >2696:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13E5 text52 CODE >2698:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13E7 text52 CODE >2699:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13E8 text52 CODE >2701:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13EA text52 CODE >2702:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13EB text52 CODE >2704:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F0 text52 CODE >2705:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F1 text52 CODE >2706:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F3 text52 CODE >2707:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F4 text52 CODE >2708:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F5 text52 CODE >2710:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F7 text52 CODE >2711:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13F8 text52 CODE >2714:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13FA text52 CODE >2715:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13FB text52 CODE >2717:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1402 text52 CODE >2718:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1403 text52 CODE >2719:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1405 text52 CODE >2720:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1406 text52 CODE >2721:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1407 text52 CODE >2722:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1407 text52 CODE >2723:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1409 text52 CODE >2724:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1413 text52 CODE >2725:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1414 text52 CODE >2727:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1421 text52 CODE >2732:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1422 text52 CODE >2690:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+142D text52 CODE >2733:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1488 text51 CODE >1488:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1488 text51 CODE >1490:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+148A text51 CODE >1491:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+148B text51 CODE >1493:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1490 text51 CODE >1496:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+149D text51 CODE >1497:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14AA text51 CODE >1498:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14B0 text51 CODE >1499:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14B5 text51 CODE >1500:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14B6 text51 CODE >1505:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14C2 text51 CODE >1507:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14C9 text51 CODE >1509:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14CB text51 CODE >1514:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14D9 text51 CODE >1515:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+14DF text51 CODE >1516:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B21 text50 CODE >1616:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B21 text50 CODE >1622:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B23 text50 CODE >1628:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B26 text50 CODE >1630:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B29 text50 CODE >1632:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B2E text50 CODE >1643:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B32 text50 CODE >1645:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B34 text50 CODE >1650:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B36 text50 CODE >1651:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B37 text50 CODE >1652:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B38 text50 CODE >1659:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B45 text50 CODE >1660:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B52 text50 CODE >1661:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B58 text50 CODE >1662:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B5D text50 CODE >1663:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B64 text50 CODE >1664:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B69 text50 CODE >1666:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B6A text50 CODE >1667:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B6A text50 CODE >1669:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B6D text50 CODE >1671:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B70 text50 CODE >1685:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B74 text50 CODE >1687:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B77 text50 CODE >1710:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B79 text50 CODE >1711:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B7A text50 CODE >1712:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B7E text50 CODE >1714:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B80 text50 CODE >1716:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B81 text50 CODE >1729:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B86 text50 CODE >1732:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+B93 text50 CODE >1733:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BA0 text50 CODE >1734:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BA6 text50 CODE >1735:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BAB text50 CODE >1738:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BAD text50 CODE >1739:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BAE text50 CODE >1740:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BB2 text50 CODE >1742:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+BB4 text50 CODE >1744:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+137F text49 CODE >2465:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+137F text49 CODE >2470:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1381 text49 CODE >2471:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1382 text49 CODE >2472:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1384 text49 CODE >2473:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1385 text49 CODE >2474:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1386 text49 CODE >2475:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1388 text49 CODE >2484:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1393 text49 CODE >2486:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+139A text49 CODE >2487:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13A5 text49 CODE >2488:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13AC text49 CODE >2489:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13B7 text49 CODE >2491:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13B9 text49 CODE >2492:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13BB text49 CODE >2493:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13BD text49 CODE >2494:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13BF text49 CODE >2500:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13C2 text49 CODE >2501:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13D1 text49 CODE >2514:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+13D3 text49 CODE >2515:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+142E text48 CODE >2372:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+142E text48 CODE >2378:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1434 text48 CODE >2382:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1439 text48 CODE >2386:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1448 text48 CODE >2394:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+144F text48 CODE >2396:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1455 text48 CODE >2399:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+145F text48 CODE >2405:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1476 text48 CODE >2408:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1478 text48 CODE >2409:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1479 text48 CODE >2413:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+147B text48 CODE >2415:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+147C text48 CODE >2416:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1485 text48 CODE >2420:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1487 text48 CODE >2421:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E88 text47 CODE >3025:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E88 text47 CODE >3033:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E91 text47 CODE >3034:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E95 text47 CODE >3036:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E99 text47 CODE >3038:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1E9C text47 CODE >3040:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EA0 text47 CODE >3041:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1000 text46 CODE >2202:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1000 text46 CODE >2214:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1003 text46 CODE >2217:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1013 text46 CODE >2220:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+101A text46 CODE >2221:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+101E text46 CODE >2223:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1020 text46 CODE >2226:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1024 text46 CODE >2227:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EEE text45 CODE >2245:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EEE text45 CODE >2270:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EF0 text45 CODE >2271:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EF6 text45 CODE >2274:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EF7 text45 CODE >2277:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EFA text45 CODE >2278:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1EFB text45 CODE >2285:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F09 text45 CODE >2286:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F65 text44 CODE >2303:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F65 text44 CODE >2305:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F67 text44 CODE >2311:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F76 text44 CODE >2318:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F78 text44 CODE >2323:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F79 text44 CODE >2341:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F7B text44 CODE >2344:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F81 text44 CODE >2341:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F82 text44 CODE >2347:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+1F84 text44 CODE >2349:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+CE8 text43 CODE >277:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+CE8 text43 CODE >281:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+CEA text43 CODE >288:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+CEC text43 CODE >291:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+CED text43 CODE >294:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+CEE text43 CODE >296:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D08 text43 CODE >298:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D0F text43 CODE >307:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D14 text43 CODE >309:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D25 text43 CODE >307:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D2D text43 CODE >313:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D2F text43 CODE >316:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D30 text43 CODE >319:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D31 text43 CODE >322:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D32 text43 CODE >327:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D36 text43 CODE >329:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D38 text43 CODE >330:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D3A text43 CODE >331:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D3C text43 CODE >332:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D3F text43 CODE >336:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D44 text43 CODE >337:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D48 text43 CODE >339:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D49 text43 CODE >340:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D4A text43 CODE >341:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D4B text43 CODE >345:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D50 text43 CODE >347:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D58 text43 CODE >348:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D60 text43 CODE >349:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D66 text43 CODE >350:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D6C text43 CODE >345:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D74 text43 CODE >354:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D79 text43 CODE >356:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D7C text43 CODE >358:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D81 text43 CODE >359:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D83 text43 CODE >360:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D87 text43 CODE >361:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D88 text43 CODE >364:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D8A text43 CODE >366:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D93 text43 CODE >367:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D95 text43 CODE >370:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D97 text43 CODE >371:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F04 text42 CODE >477:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F04 text42 CODE >566:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F08 text42 CODE >569:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F0A text42 CODE >572:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F0B text42 CODE >576:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F11 text42 CODE >579:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F15 text42 CODE >582:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F18 text42 CODE >590:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F1B text42 CODE >601:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F1E text42 CODE >608:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F1F text42 CODE >612:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F20 text42 CODE >614:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F21 text42 CODE >615:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F22 text42 CODE >616:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F28 text42 CODE >634:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F2C text42 CODE >636:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F32 text42 CODE >640:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F35 text42 CODE >647:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F38 text42 CODE >649:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F3A text42 CODE >650:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F3B text42 CODE >651:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F3B text42 CODE >663:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F3E text42 CODE >665:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F41 text42 CODE >671:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F47 text42 CODE >681:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F4D text42 CODE >687:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F50 text42 CODE >694:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F53 text42 CODE >708:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F56 text42 CODE >711:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F58 text42 CODE >713:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F68 text42 CODE >715:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F6E text42 CODE >718:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F71 text42 CODE >735:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F75 text42 CODE >737:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F77 text42 CODE >738:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F77 text42 CODE >744:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F7A text42 CODE >746:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F7D text42 CODE >751:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F81 text42 CODE >753:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F84 text42 CODE >756:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F88 text42 CODE >758:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F98 text42 CODE >759:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F9A text42 CODE >774:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F9F text42 CODE >776:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FA1 text42 CODE >777:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FA2 text42 CODE >778:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FA2 text42 CODE >783:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FA5 text42 CODE >785:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FAB text42 CODE >786:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FAB text42 CODE >787:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FAE text42 CODE >790:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FB4 text42 CODE >791:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FBE text42 CODE >793:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FC4 text42 CODE >798:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FC7 text42 CODE >800:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FCB text42 CODE >804:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FDC text42 CODE >810:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FE0 text42 CODE >812:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FE3 text42 CODE >813:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FE4 text42 CODE >816:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FF3 text42 CODE >785:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FFD text42 CODE >824:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FFD text42 CODE >826:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+FFF text42 CODE >827:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+C4A text41 CODE >836:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C4A text41 CODE >845:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C55 text41 CODE >856:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C59 text41 CODE >857:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C5A text41 CODE >862:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C5D text41 CODE >871:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C61 text41 CODE >873:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C70 text41 CODE >875:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C75 text41 CODE >876:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C76 text41 CODE >877:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C79 text41 CODE >882:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C7D text41 CODE >883:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C7F text41 CODE >885:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C83 text41 CODE >890:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C89 text41 CODE >892:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C8E text41 CODE >894:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C92 text41 CODE >895:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+C96 text41 CODE >899:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CA1 text41 CODE >900:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CA5 text41 CODE >901:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CA9 text41 CODE >902:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CAB text41 CODE >897:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CAF text41 CODE >909:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CBA text41 CODE >910:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CBE text41 CODE >911:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CC2 text41 CODE >912:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CC4 text41 CODE >907:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CC7 text41 CODE >920:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CCB text41 CODE >922:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CCF text41 CODE >923:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CD1 text41 CODE >925:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CD5 text41 CODE >927:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+CE7 text41 CODE >929:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1DF2 text40 CODE >142:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1DF2 text40 CODE >146:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1DF5 text40 CODE >148:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1DF6 text40 CODE >149:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1DFA text40 CODE >150:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1DFB text40 CODE >151:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1DFC text40 CODE >154:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1E00 text40 CODE >155:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1E00 text40 CODE >160:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1D7C text39 CODE >66:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1D7D text39 CODE >68:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1D80 text39 CODE >69:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\app_uart_usb_utils.c
+1231 text38 CODE >485:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1233 text38 CODE >487:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1235 text38 CODE >489:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1240 text38 CODE >495:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1249 text38 CODE >496:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1252 text38 CODE >501:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1258 text38 CODE >502:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1269 text38 CODE >501:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+126F text38 CODE >508:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1280 text38 CODE >512:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1E16 text37 CODE >556:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1E17 text37 CODE >582:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1E1B text37 CODE >584:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc2.c
+1688 text36 CODE >114:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1688 text36 CODE >119:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+168D text36 CODE >128:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1690 text36 CODE >153:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1694 text36 CODE >155:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16A2 text36 CODE >156:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16A5 text36 CODE >158:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16A7 text36 CODE >159:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16A8 text36 CODE >160:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16AA text36 CODE >161:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16AB text36 CODE >162:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16B0 text36 CODE >169:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16B7 text36 CODE >172:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16C1 text36 CODE >173:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16C7 text36 CODE >174:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16CA text36 CODE >175:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16CB text36 CODE >181:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16D3 text36 CODE >183:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16E1 text36 CODE >184:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16E6 text36 CODE >185:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16EC text36 CODE >191:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16F3 text36 CODE >193:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16FC text36 CODE >194:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+16FE text36 CODE >197:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1700 text36 CODE >198:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1D68 text35 CODE >95:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D68 text35 CODE >98:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D6A text35 CODE >99:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1E2C text34 CODE >71:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1E2C text34 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1E37 text34 CODE >77:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1E41 text34 CODE >78:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1D6B text32 CODE >95:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D6B text32 CODE >98:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1D6D text32 CODE >99:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DB5 text31 CODE >64:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DB5 text31 CODE >69:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DB8 text31 CODE >72:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DBA text31 CODE >75:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DBB text31 CODE >78:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DBC text31 CODE >81:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DBD text31 CODE >84:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DBE text31 CODE >85:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/adc.c
+1DCA text30 CODE >55:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1DCA text30 CODE >60:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1DCD text30 CODE >63:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1DCF text30 CODE >66:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1DD1 text30 CODE >69:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1DD3 text30 CODE >72:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1DD5 text30 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/eusart.c
+1D74 text29 CODE >57:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/fvr.c
+1D74 text29 CODE >60:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/fvr.c
+1D77 text29 CODE >61:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/fvr.c
+1DBF text28 CODE >86:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1DBF text28 CODE >89:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1DC2 text28 CODE >91:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1DC3 text28 CODE >93:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1DC6 text28 CODE >97:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1DC6 text28 CODE >99:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1E42 text27 CODE >51:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E42 text27 CODE >56:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E45 text27 CODE >57:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E46 text27 CODE >62:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E49 text27 CODE >63:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E4B text27 CODE >68:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E4E text27 CODE >69:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E50 text27 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E53 text27 CODE >75:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E55 text27 CODE >81:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1E58 text27 CODE >86:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pin_manager.c
+1D87 text26 CODE >57:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1D87 text26 CODE >61:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1D8A text26 CODE >64:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1D8B text26 CODE >67:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1D8C text26 CODE >69:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1D6E text25 CODE >89:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1D6E text25 CODE >92:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1D70 text25 CODE >93:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E02 text24 CODE >63:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E02 text24 CODE >68:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E05 text24 CODE >71:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E06 text24 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E08 text24 CODE >77:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E0A text24 CODE >80:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E11 text24 CODE >83:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E13 text24 CODE >86:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1E15 text24 CODE >87:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1D71 text23 CODE >83:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1D71 text23 CODE >86:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1D73 text23 CODE >87:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DA3 text22 CODE >63:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DA3 text22 CODE >68:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DA5 text22 CODE >71:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DA7 text22 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DA8 text22 CODE >77:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DA9 text22 CODE >80:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1DAB text22 CODE >81:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr2.c
+1D78 text21 CODE >102:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1D78 text21 CODE >105:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1D7B text21 CODE >106:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1ED3 text20 CODE >72:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1ED3 text20 CODE >75:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1ED6 text20 CODE >76:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1ED9 text20 CODE >77:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EDC text20 CODE >78:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EDF text20 CODE >79:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EE2 text20 CODE >80:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EE5 text20 CODE >81:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EE8 text20 CODE >82:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EEB text20 CODE >83:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+1EED text20 CODE >84:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/mcc.c
+E4B text19 CODE >277:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E4B text19 CODE >281:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E4D text19 CODE >288:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E4F text19 CODE >291:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E50 text19 CODE >294:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E51 text19 CODE >296:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E6C text19 CODE >298:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E73 text19 CODE >307:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E79 text19 CODE >309:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E8A text19 CODE >307:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E92 text19 CODE >313:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E94 text19 CODE >316:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E95 text19 CODE >319:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E96 text19 CODE >322:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E97 text19 CODE >327:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E9D text19 CODE >329:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+E9F text19 CODE >330:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EA1 text19 CODE >331:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EA3 text19 CODE >332:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EA6 text19 CODE >336:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EAC text19 CODE >337:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EB2 text19 CODE >339:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EB3 text19 CODE >340:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EB4 text19 CODE >341:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EB5 text19 CODE >345:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EBB text19 CODE >347:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EC3 text19 CODE >348:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+ECB text19 CODE >349:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+ED1 text19 CODE >350:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+ED7 text19 CODE >345:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EDF text19 CODE >354:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EE3 text19 CODE >356:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EE6 text19 CODE >358:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EEB text19 CODE >359:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EED text19 CODE >360:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EF3 text19 CODE >361:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EF4 text19 CODE >364:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EF6 text19 CODE >366:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+EFF text19 CODE >367:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F01 text19 CODE >370:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+F03 text19 CODE >371:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+97C text18 CODE >995:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+97E text18 CODE >1000:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+981 text18 CODE >1003:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+98A text18 CODE >1008:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+993 text18 CODE >1013:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+997 text18 CODE >1015:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+99A text18 CODE >1029:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9A9 text18 CODE >1030:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9B5 text18 CODE >1031:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9BD text18 CODE >1032:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9C2 text18 CODE >1033:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9C7 text18 CODE >1036:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9CA text18 CODE >1039:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9E2 text18 CODE >1040:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9E3 text18 CODE >1044:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+9FB text18 CODE >1046:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device.c
+D98 text17 CODE >836:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+D98 text17 CODE >845:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DA3 text17 CODE >856:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DA7 text17 CODE >857:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DA8 text17 CODE >862:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DAB text17 CODE >871:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DAF text17 CODE >873:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DC1 text17 CODE >875:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DC6 text17 CODE >876:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DC7 text17 CODE >877:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DCA text17 CODE >882:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DCE text17 CODE >883:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DD0 text17 CODE >885:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DD4 text17 CODE >890:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DDA text17 CODE >892:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DDF text17 CODE >894:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DE4 text17 CODE >895:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DE9 text17 CODE >899:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DF8 text17 CODE >900:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+DFD text17 CODE >901:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E01 text17 CODE >902:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E04 text17 CODE >897:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E09 text17 CODE >909:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E18 text17 CODE >910:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E1D text17 CODE >911:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E21 text17 CODE >912:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E24 text17 CODE >907:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E28 text17 CODE >920:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E2B text17 CODE >922:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E2F text17 CODE >923:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E31 text17 CODE >925:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E35 text17 CODE >927:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+E4A text17 CODE >929:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1DAC text16 CODE >132:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1DAC text16 CODE >135:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1DB0 text16 CODE >136:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1DB4 text16 CODE >137:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/tmr1.c
+1F0A text15 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F0A text15 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F0D text15 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F0F text15 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F13 text15 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F18 text15 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F1D text15 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1F21 text15 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+1DE3 text14 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
+1DE5 text14 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
+1617 text13 CODE >5:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1619 text13 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1621 text13 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1625 text13 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+162E text13 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1630 text13 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1631 text13 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1639 text13 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+163E text13 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1646 text13 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+164A text13 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1654 text13 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1672 text13 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1673 text13 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1677 text13 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+1683 text13 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+12D6 text12 CODE >485:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+12D8 text12 CODE >487:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+12D9 text12 CODE >489:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+12E4 text12 CODE >495:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+12EE text12 CODE >496:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+12F9 text12 CODE >501:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+12FE text12 CODE >502:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+130E text12 CODE >501:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1313 text12 CODE >508:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1327 text12 CODE >512:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1283 text11 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1283 text11 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+128C text11 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1292 text11 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1294 text11 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1296 text11 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+129D text11 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12A1 text11 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12A2 text11 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12A9 text11 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12B9 text11 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12C1 text11 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12C2 text11 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12C9 text11 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+12CD text11 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\lldiv.c
+1EA1 text10 CODE >71:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1EA1 text10 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1EAD text10 CODE >77:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+1EB9 text10 CODE >78:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\mcc_generated_files/pwm2.c
+877 text9 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+877 text9 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+879 text9 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+87B text9 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+886 text9 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+888 text9 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+888 text9 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+88A text9 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+895 text9 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+899 text9 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8A1 text9 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8A7 text9 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8A9 text9 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8AB text9 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8B2 text9 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8B6 text9 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8B7 text9 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8BE text9 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8CE text9 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8D6 text9 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8D7 text9 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8DE text9 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8E2 text9 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8E5 text9 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+8F0 text9 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+1FD0 text8 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FD0 text8 CODE >119:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FD9 text8 CODE >121:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FDB text8 CODE >122:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FE3 text8 CODE >123:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FEA text8 CODE >124:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FF1 text8 CODE >125:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+1FF7 text8 CODE >128:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+BB5 text7 CODE >71:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+BB5 text7 CODE >74:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+BB7 text7 CODE >76:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+BC6 text7 CODE >77:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+BF7 text7 CODE >78:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+BFD text7 CODE >79:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C00 text7 CODE >80:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C03 text7 CODE >81:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C05 text7 CODE >82:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C06 text7 CODE >83:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C39 text7 CODE >84:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C3F text7 CODE >85:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C42 text7 CODE >86:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C44 text7 CODE >87:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+C47 text7 CODE >88:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4D8 text6 CODE >201:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4DA text6 CODE >204:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4FD text6 CODE >205:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+514 text6 CODE >207:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+537 text6 CODE >208:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+54E text6 CODE >211:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+575 text6 CODE >212:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+599 text6 CODE >217:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+59A text6 CODE >218:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+5A9 text6 CODE >219:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+5CB text6 CODE >220:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+60A text6 CODE >221:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+60B text6 CODE >222:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+60C text6 CODE >223:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1EBA text5 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1EBA text5 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1EBF text5 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1EC8 text5 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+1ED2 text5 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\memset.c
+A8F text4 CODE >233:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+A91 text4 CODE >235:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+A95 text4 CODE >236:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+A96 text4 CODE >238:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+A9C text4 CODE >239:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+AA4 text4 CODE >240:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+AA6 text4 CODE >241:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+AD6 text4 CODE >242:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+AD8 text4 CODE >243:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+AE1 text4 CODE >244:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B0D text4 CODE >245:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B0E text4 CODE >240:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B14 text4 CODE >248:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B18 text4 CODE >249:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+B1C text4 CODE >238:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1E59 text3 CODE >556:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1E59 text3 CODE >582:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+1E5D text3 CODE >584:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\usb/core/usb_device_cdc.c
+33C text2 CODE >275:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+33C text2 CODE >282:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+341 text2 CODE >291:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+344 text2 CODE >299:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+348 text2 CODE >304:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+354 text2 CODE >306:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+357 text2 CODE >308:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+35C text2 CODE >310:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+36A text2 CODE >311:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+37C text2 CODE >314:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+385 text2 CODE >315:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+397 text2 CODE >321:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3A0 text2 CODE >322:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3B1 text2 CODE >325:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3BA text2 CODE >326:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3C4 text2 CODE >327:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3C6 text2 CODE >328:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3C7 text2 CODE >329:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3D6 text2 CODE >330:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3E2 text2 CODE >333:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3E4 text2 CODE >334:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3F2 text2 CODE >335:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3F3 text2 CODE >337:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3F8 text2 CODE >339:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3FC text2 CODE >340:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+3FD text2 CODE >341:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+40B text2 CODE >342:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+40C text2 CODE >308:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+412 text2 CODE >345:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+416 text2 CODE >348:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+444 text2 CODE >349:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+459 text2 CODE >353:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+45B text2 CODE >354:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+46A text2 CODE >355:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+46B text2 CODE >358:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+474 text2 CODE >362:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+47F text2 CODE >364:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+485 text2 CODE >365:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+486 text2 CODE >370:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+48C text2 CODE >371:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+48E text2 CODE >372:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+490 text2 CODE >373:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+492 text2 CODE >374:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+493 text2 CODE >376:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+49E text2 CODE >377:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4A0 text2 CODE >380:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4A2 text2 CODE >381:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4A8 text2 CODE >383:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4A9 text2 CODE >368:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4B2 text2 CODE >384:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4BE text2 CODE >386:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4C0 text2 CODE >388:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4C3 text2 CODE >389:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4C5 text2 CODE >391:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4C6 text2 CODE >346:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4D5 text2 CODE >395:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+4D7 text2 CODE >396:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1195 text1 CODE >398:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1195 text1 CODE >403:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11A9 text1 CODE >405:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11B5 text1 CODE >406:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11BF text1 CODE >407:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11C1 text1 CODE >408:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11C2 text1 CODE >409:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11C6 text1 CODE >410:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11C8 text1 CODE >411:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11C9 text1 CODE >412:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11CE text1 CODE >413:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11CF text1 CODE >415:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11D1 text1 CODE >416:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11D7 text1 CODE >417:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11D8 text1 CODE >418:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+11DE text1 CODE >420:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F26 maintext CODE >438:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F26 maintext CODE >440:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F29 maintext CODE >441:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F2C maintext CODE >443:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F2D maintext CODE >444:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F2E maintext CODE >445:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F31 maintext CODE >447:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F34 maintext CODE >450:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F3D maintext CODE >452:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F3D maintext CODE >471:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F40 maintext CODE >472:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F43 maintext CODE >473:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1F44 maintext CODE >452:C:\Users\Valerii\MPLABXProjects\EasyPowerUSB.X\main.c
+1D8D clrtext CODE >5817:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D8D clrtext CODE >5818:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D8E clrtext CODE >5819:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D8E clrtext CODE >5820:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D8F clrtext CODE >5821:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D90 clrtext CODE >5822:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D91 clrtext CODE >5823:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+1D92 clrtext CODE >5824:C:\Users\Valerii\AppData\Local\Temp\sbb0.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+i1_PWM2_LoadDutyValue 3C58 0 CODE 0 text34 dist/default/debug\EasyPowerUSB.X.debug.obj
+__LdataBANK4 0 0 ABS 0 dataBANK4 -
+USBStdGetStatusHandler@p 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCheckCDCRequest2 2B52 0 CODE 0 text62 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hspace_0 8009 0 ABS 0 - -
+__Hspace_1 5E0 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+_cdc_trf_state2 1E5 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USB1msTickCount 2C6 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__HidataBANK4 0 0 ABS 0 idataBANK4 -
+__size_of_ADC_StartConversion 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_NextUSBOut 1DE 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBTransferOnePacket@dir 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBTransferOnePacket@len 1A3 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_PWM2CON 616 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PWM2DCH 615 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PWM2DCL 614 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+i1_USBDeviceInit 19D0 0 CODE 0 text43 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_TMR1_Reload 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCtrlEPServiceComplete 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_USBStdSetCfgHandler 151E 0 CODE 0 text53 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBEnableEndpoint@options 77 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+?i1_USBTransferOnePacket 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_T1CONbits 18 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_ADC_GetConversionResult 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lstringtext 0 0 ABS 0 stringtext -
+__size_of_USBIncrement1msInternalTimers 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_my_uitoa 151E 0 CODE 0 text4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_WDT_Initialize 3AF8 0 CODE 0 text21 dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCTxService 1B30 0 CODE 0 text17 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hstrings 0 0 ABS 0 strings -
+i1memset@p1 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_dividerArray 294 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_Iadc 1DA 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_LATA 10C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_LATC 10E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR2 1A 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UCFG E91 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UCON E8E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UEIE E97 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UEIR E93 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UEP0 E98 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UEP1 E99 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_Uadc 1EC 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_WPUA 20C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+_atoi 2C2E 0 CODE 0 text13 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main 3E4C 0 CODE 0 maintext dist/default/debug\EasyPowerUSB.X.debug.obj
+_pDst 25A 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+btemp 7E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__HbssBANK10 0 0 ABS 0 bssBANK10 -
+__HbssBANK11 0 0 ABS 0 bssBANK11 -
+__size_of_USBCtrlTrfTxService 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+start 1D2 0 CODE 0 init C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+__size_of___aldiv 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_ADC_IsConversionDone 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBTransferOnePacket 12F8 0 CODE 0 text18 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_atoi 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_PLLMULT$3x 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBDeviceInit 1C96 0 CODE 0 text19 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_my_uitoa 1642 0 CODE 0 text4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_MAIN_Iout_limit_mA 26A 0 BANK4 1 dataBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+?___lmul 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+?___wmul 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_pBDTEntryEP0OutNext 16E 0 BANK2 1 bssBANK2 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_CommunicationHandler@i 1C9 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_OPTION_REGbits 95 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_putUSBUSART2 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBDeviceTasks 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADC_SelectChannel 3BAC 0 CODE 0 text76 dist/default/debug\EasyPowerUSB.X.debug.obj
+__LidataBANK4 0 0 ABS 0 idataBANK4 -
+__end_of_EUSART_Initialize 3BAC 0 CODE 0 text30 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBCtrlTrfInHandler@lastDTS EA 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBConfigureEndpoint 2218 0 CODE 0 text68 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hpowerup 0 0 CODE 0 powerup -
+getsUSBUSART2@len 7B 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_UEP0bits E98 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_TMR1_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_TMR1_StartTimer 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_ADC_IsConversionDone 3B34 0 CODE 0 text77 dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCDataOutHandle 22B 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR2_Initialize 3B46 0 CODE 0 text22 dist/default/debug\EasyPowerUSB.X.debug.obj
+_CtrlTrfData A8 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR2_StartTimer 3AE2 0 CODE 0 text23 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main_Communication_Initialize 3F52 0 CODE 0 text59 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1PWM2_LoadDutyValue@dutyValue 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADC_StartConversion 3AD6 0 CODE 0 text32 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__LbssBANK10 0 0 ABS 0 bssBANK10 -
+__LbssBANK11 0 0 ABS 0 bssBANK11 -
+intlevel0 0 0 CODE 0 functab C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+_writeBuffer 4A0 0 BANK9 1 bssBANK9 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_switchStepUp_Down 176A 0 CODE 0 text7 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_ADC_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PwmDutyCycleCurrentLimit 1DF 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+___aldiv@divisor 1AC 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_pBDTEntryIn 1CB 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+wtemp0 7E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_CDCTxService 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCDataInHandle 227 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hfunctab 0 0 CODE 0 functab -
+i1memset@c 72 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+i1memset@n 74 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+i1memset@p 76 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCtrlTrfRxService 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBEnableEndpoint 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_putUSBUSART2 3C58 0 CODE 0 text37 dist/default/debug\EasyPowerUSB.X.debug.obj
+_controlTransferState 1E8 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_CDC_to_RS485_Tasks 2D10 0 CODE 0 text36 dist/default/debug\EasyPowerUSB.X.debug.obj
+___aldiv@sign 1B6 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlTrfTxService 1008 0 CODE 0 text73 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__size_of_USBCtrlEPAllowDataStage 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main_CDC_to_RS485_Tasks 2E02 0 CODE 0 text36 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBDeviceInit@i 1A4 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBDeviceInit@p 1A1 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_MAIN_Uout_target_mV 264 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1___lldiv@dividend 74 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_putUSBUSART 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+___wmul@multiplicand 1A2 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_ACTCON 39B 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADCON0 9D 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADCON1 9E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADCON2 9F 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADRESH 9C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADRESL 9B 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_line_coding 25D 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_ANSELA 18C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ANSELC 18E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_APFCON 11D 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_FVR_Initialize 3AE8 0 CODE 0 text29 dist/default/debug\EasyPowerUSB.X.debug.obj
+putUSBUSART2@length 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlEPServiceComplete 176A 0 CODE 0 text50 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_CDCTxService 1C96 0 CODE 0 text17 dist/default/debug\EasyPowerUSB.X.debug.obj
+_FVRCONbits 117 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_INTERRUPT_InterruptManager 1D2 0 CODE 0 intentry dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_PWM2_Initialize 3B1A 0 CODE 0 text26 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_CommunicationHandler@cmdRxBufferPointer 1EB 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_dividerArray 348 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_ofi1_USBDeviceInit 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of___lmul 4000 0 CODE 0 text8 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of___wmul 3E4C 0 CODE 0 text15 dist/default/debug\EasyPowerUSB.X.debug.obj
+_RS232_Out_Data 5A0 0 BANK11 1 bssBANK11 dist/default/debug\EasyPowerUSB.X.debug.obj
+CDCTxService2@byte_to_send 7D 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCInitEP2 20B8 0 CODE 0 text64 dist/default/debug\EasyPowerUSB.X.debug.obj
+?_USBTransferOnePacket 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_Communication_Initialize@i 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBStdGetStatusHandler 26FE 0 CODE 0 text55 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_CP$ON 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_SetupPkt A0 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCheckCDCRequest 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_data_rx2 120 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_data_tx2 A0 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCtrlTrfOutHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USBEnableEndpoint@ep 7C 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__end_ofi1___lldiv 2462 0 CODE 0 text75 dist/default/debug\EasyPowerUSB.X.debug.obj
+_FVRCON 117 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBStdGetDscHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_control_signal_bitmap2 258 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_dummy_encapsulated_cmd_response2 2DC 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_ofi1___lldiv 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBStallHandler 204A 0 CODE 0 text46 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of___aldiv 11F2 0 CODE 0 text9 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1USBTransferOnePacket@dir 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+i1USBTransferOnePacket@len 73 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of___lldiv 25AC 0 CODE 0 text11 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlTrfSetupHandler 26FE 0 CODE 0 text49 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlEPAllowStatusStage 2C2E 0 CODE 0 text71 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_ofi1_USBTransferOnePacket 12F8 0 CODE 0 text66 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlTrfRxService E66 0 CODE 0 text70 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBStdFeatureReqHandler@pUEP E8 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+_MAIN_ovcFlag 248 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBCtrlTrfRxService@byteToRead EB 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBDeviceInit 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_ofi1_ADC_StartConversion 3AD6 0 CODE 0 text35 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlTrfOutHandler 2218 0 CODE 0 text69 dist/default/debug\EasyPowerUSB.X.debug.obj
+_EUSART_Initialize 3B94 0 CODE 0 text30 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBBusIsSuspended 24E 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main_SetDcDcRegulator 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+i1___lldiv 23BE 0 CODE 0 text75 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_TMR2_StartTimer 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBDeferOUTDataStagePackets 250 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+___lldiv@counter 1B9 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PIN_MANAGER_Initialize 3C84 0 CODE 0 text27 dist/default/debug\EasyPowerUSB.X.debug.obj
+?_ADC_GetConversionResult 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_FVR_Initialize 3AF0 0 CODE 0 text29 dist/default/debug\EasyPowerUSB.X.debug.obj
+start_initialization 1D6 0 CODE 0 cinit dist/default/debug\EasyPowerUSB.X.debug.obj
+_pCDCDst2 23D 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_pCDCSrc2 241 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_ADC_StartConversion 3ADC 0 CODE 0 text32 dist/default/debug\EasyPowerUSB.X.debug.obj
+_OSCCON 99 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PWM2_Initialize 3B0E 0 CODE 0 text26 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1_ADC_StartConversion 3AD0 0 CODE 0 text35 dist/default/debug\EasyPowerUSB.X.debug.obj
+_PLLRDY 4D6 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+___aldiv@quotient 1B7 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+___lldiv@dividend 1B0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCheckStdRequest 285C 0 CODE 0 text52 dist/default/debug\EasyPowerUSB.X.debug.obj
+_device_dsc 5E4 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_memset 3DA6 0 CODE 0 text5 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBTicksSinceSuspendEnd 254 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_SYSTEM_Initialize 3DDC 0 CODE 0 text20 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBDeviceInit 1E08 0 CODE 0 text19 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStdGetDscHandler 2E02 0 CODE 0 text56 dist/default/debug\EasyPowerUSB.X.debug.obj
+INTERRUPT_InterruptManager@pwmCorrection 245 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_CDCInitEP2 2126 0 CODE 0 text64 dist/default/debug\EasyPowerUSB.X.debug.obj
+clear_ram0 3B1A 0 CODE 0 clrtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_writeStatusBuffer 3A0 0 BANK7 1 bssBANK7 dist/default/debug\EasyPowerUSB.X.debug.obj
+_SPBRGH 19C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_SPBRGL 19B 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__pcstackBANK1 E0 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pcstackBANK2 160 0 BANK2 1 cstackBANK2 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pcstackBANK3 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USER_USB_CALLBACK_EVENT_HANDLER 219E 0 CODE 0 text58 dist/default/debug\EasyPowerUSB.X.debug.obj
+_T1GCON 19 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+CDCTxService2@i 7C 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR1_Reload 3B58 0 CODE 0 text16 dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR1IF 88 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlTrfTxService 10EE 0 CODE 0 text73 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStallHandler 2000 0 CODE 0 text46 dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_data_rx 120 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_data_tx A0 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USBDeviceInit@i_1118 1A3 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_getsUSBUSART 25AC 0 CODE 0 text12 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main_Communication_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_tx_len2 1E7 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBEnableEndpoint 3ECA 0 CODE 0 text67 dist/default/debug\EasyPowerUSB.X.debug.obj
+_MAIN_Uout_mV 233 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_readBuffer 520 0 BANK10 1 bssBANK10 dist/default/debug\EasyPowerUSB.X.debug.obj
+_WDTCON 97 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+_UIEbits E92 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UIRbits E90 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+i1USBTransferOnePacket@data 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_line_coding2 2E4 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 294 0 CODE 0 cinit -
+_cdc_mem_type2 256 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBWakeFromSuspend 3F0A 0 CODE 0 text44 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__size_ofi1_memset 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+_USBCtrlEPService 285C 0 CODE 0 text48 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__size_of_USBCtrlEPAllowStatusStage 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USART_putcUSART 3B02 0 CODE 0 text39 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_USBCheckStdRequest 27A8 0 CODE 0 text52 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBIncrement1msInternalTimers 3D10 0 CODE 0 text47 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBStdFeatureReqHandler@p EB 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_PWM2_LoadDutyValue 3D74 0 CODE 0 text10 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10012 0 CONFIG 0 config -
+USER_USB_CALLBACK_EVENT_HANDLER@event E0 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_PLLEN$ENABLED 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USER_USB_CALLBACK_EVENT_HANDLER@size E4 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBTransferOnePacket@handle 1A9 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+USER_USB_CALLBACK_EVENT_HANDLER@pdata E2 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBStdSetCfgHandler@i_1459 E9 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__end_of_isdigit 3BE4 0 CODE 0 text14 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lcinit 1D6 0 CODE 0 cinit -
+__end_of_main_switchStepUp_Down 1894 0 CODE 0 text7 dist/default/debug\EasyPowerUSB.X.debug.obj
+_T1GCONbits 19 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lidloc 0 0 IDLOC 0 idloc -
+_USB_Out_Buffer 420 0 BANK8 1 bssBANK8 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+_getsUSBUSART2 2462 0 CODE 0 text38 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlTrfRxService FFC 0 CODE 0 text70 dist/default/debug\EasyPowerUSB.X.debug.obj
+_INTCONbits B 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_pCDCDst 23B 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_pCDCSrc 23F 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+CDCTxService@i 1AC 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_switchStepUp_Down@Uout_mV 1BB 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 1D2 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 1D2 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+PWM2_LoadDutyValue@dutyValue 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+memset@c 1A2 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+memset@n 1A4 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+memset@p 1A6 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+___lmul 3FA0 0 CODE 0 text8 dist/default/debug\EasyPowerUSB.X.debug.obj
+___wmul 3E14 0 CODE 0 text15 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_getsUSBUSART 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 -
+int$flags 7E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_rx_len 1E2 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_overcurrentProtection@Iadc_avg 243 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_device_dsc 608 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_WDT_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCtrlTrfInHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBSuspend 3DDC 0 CODE 0 text45 dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_trf_state 1E4 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_BDT 20 0 ABS 1 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PR2 1B 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UIE E92 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UIR E90 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__S0 8009 0 ABS 0 - -
+__S1 5E0 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+i1USBTransferOnePacket@handle 79 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+atoi@sign 1AA 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBWakeFromSuspend 3ECA 0 CODE 0 text44 dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_tx_len 1E6 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStdFeatureReqHandler C1A 0 CODE 0 text57 dist/default/debug\EasyPowerUSB.X.debug.obj
+_BothEP0OutUOWNsSet 246 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+USART_putcUSART@c 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_notice2 2CA 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+_UCONbits E8E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USBCtrlTrfRxService@i EA 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_CDC_to_RS485_Initialize@i 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBStdFeatureReqHandler E66 0 CODE 0 text57 dist/default/debug\EasyPowerUSB.X.debug.obj
+_PWM2_LoadDutyValue 3D42 0 CODE 0 text10 dist/default/debug\EasyPowerUSB.X.debug.obj
+_putUSBUSART 3CB2 0 CODE 0 text3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_PWM2_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USART_mySetLineCodingHandler@dwBaud E4 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1USBTransferOnePacket@ep 78 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_ofi1_PWM2_LoadDutyValue 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+i1_memset 3CE0 0 CODE 0 text54 dist/default/debug\EasyPowerUSB.X.debug.obj
+_PwmDutyCycleVoltageLimit 24A 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USART_putcUSART 3AF8 0 CODE 0 text39 dist/default/debug\EasyPowerUSB.X.debug.obj
+_SYSTEM_Initialize 3DA6 0 CODE 0 text20 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_getsUSBUSART 2654 0 CODE 0 text12 dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADC_IsConversionDone 3B26 0 CODE 0 text77 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USART_mySetLineCodingHandler 229C 0 CODE 0 text74 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBAlternateInterface 268 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBDeviceState 1E1 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBDeviceTasks 1E08 0 CODE 0 text42 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main_CommunicationHandler 9B0 0 CODE 0 text2 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBStdGetStatusHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADC_GetConversionResult 3B02 0 CODE 0 text78 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBStdGetDscHandler 2F00 0 CODE 0 text56 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lintentry 8 0 CODE 0 intentry -
+___lldiv@divisor 1AC 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USART_getcUSART 3C04 0 CODE 0 text40 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBStallHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+i1_TMR1_Reload 3B34 0 CODE 0 text60 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlTrfSetupHandler 27A8 0 CODE 0 text49 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_ofi1_memset 3D10 0 CODE 0 text54 dist/default/debug\EasyPowerUSB.X.debug.obj
+USART_getcUSART@c 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+__end_of_ADC_GetConversionResult 3B0E 0 CODE 0 text78 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBEnableEndpoint 3E8A 0 CODE 0 text67 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pdataBANK4 26A 0 BANK4 1 dataBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_ofi1_USBTransferOnePacket 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of___lmul 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_ofi1_PWM2_LoadDutyValue 3C84 0 CODE 0 text34 dist/default/debug\EasyPowerUSB.X.debug.obj
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__LbssBANK3 0 0 ABS 0 bssBANK3 -
+__LbssBANK4 0 0 ABS 0 bssBANK4 -
+__LbssBANK5 0 0 ABS 0 bssBANK5 -
+__LbssBANK6 0 0 ABS 0 bssBANK6 -
+__LbssBANK7 0 0 ABS 0 bssBANK7 -
+__LbssBANK8 0 0 ABS 0 bssBANK8 -
+__LbssBANK9 0 0 ABS 0 bssBANK9 -
+i1USBDeviceInit@i_1118 73 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_control_signal_bitmap 257 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_RS232cp 24C 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlEPService 2910 0 CODE 0 text48 dist/default/debug\EasyPowerUSB.X.debug.obj
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlTrfInHandler 2F00 0 CODE 0 text72 dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADC_Initialize 3B6A 0 CODE 0 text31 dist/default/debug\EasyPowerUSB.X.debug.obj
+_RCSTAbits 19D 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+getsUSBUSART2@buffer E0 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBTransferOnePacket 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PIE1bits 91 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PIE2bits 92 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_CPUDIV$NOCLKDIV 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_memset 3D74 0 CODE 0 text5 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBConfigureEndpoint@handle 76 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+memset@p1 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext10 3D42 0 CODE 0 text10 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext11 2506 0 CODE 0 text11 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext12 25AC 0 CODE 0 text12 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext13 2C2E 0 CODE 0 text13 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext14 3BC6 0 CODE 0 text14 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext15 3E14 0 CODE 0 text15 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext16 3B58 0 CODE 0 text16 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext17 1B30 0 CODE 0 text17 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext18 12F8 0 CODE 0 text18 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext19 1C96 0 CODE 0 text19 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext20 3DA6 0 CODE 0 text20 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext21 3AF0 0 CODE 0 text21 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext22 3B46 0 CODE 0 text22 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext23 3AE2 0 CODE 0 text23 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext24 3C04 0 CODE 0 text24 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext25 3ADC 0 CODE 0 text25 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext26 3B0E 0 CODE 0 text26 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext27 3C84 0 CODE 0 text27 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext28 3B7E 0 CODE 0 text28 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext29 3AE8 0 CODE 0 text29 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext30 3B94 0 CODE 0 text30 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext31 3B6A 0 CODE 0 text31 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext32 3AD6 0 CODE 0 text32 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext34 3C58 0 CODE 0 text34 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext35 3AD0 0 CODE 0 text35 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext36 2D10 0 CODE 0 text36 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext37 3C2C 0 CODE 0 text37 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext38 2462 0 CODE 0 text38 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext39 3AF8 0 CODE 0 text39 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext40 3BE4 0 CODE 0 text40 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext41 1894 0 CODE 0 text41 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext42 1E08 0 CODE 0 text42 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext43 19D0 0 CODE 0 text43 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext44 3ECA 0 CODE 0 text44 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext45 3DDC 0 CODE 0 text45 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext46 2000 0 CODE 0 text46 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext47 3D10 0 CODE 0 text47 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext48 285C 0 CODE 0 text48 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext49 26FE 0 CODE 0 text49 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext50 1642 0 CODE 0 text50 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext51 2910 0 CODE 0 text51 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext52 27A8 0 CODE 0 text52 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext53 1400 0 CODE 0 text53 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext54 3CE0 0 CODE 0 text54 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext55 2654 0 CODE 0 text55 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext56 2E02 0 CODE 0 text56 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext57 C1A 0 CODE 0 text57 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext58 2126 0 CODE 0 text58 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext59 3F0A 0 CODE 0 text59 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext60 3B34 0 CODE 0 text60 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext61 3F52 0 CODE 0 text61 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext62 2A8A 0 CODE 0 text62 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext63 29CA 0 CODE 0 text63 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext64 20B8 0 CODE 0 text64 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext65 204A 0 CODE 0 text65 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext66 11F2 0 CODE 0 text66 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext67 3E8A 0 CODE 0 text67 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext68 2218 0 CODE 0 text68 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext69 219E 0 CODE 0 text69 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext70 E66 0 CODE 0 text70 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext71 2B52 0 CODE 0 text71 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext72 2F00 0 CODE 0 text72 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext73 1008 0 CODE 0 text73 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext74 229C 0 CODE 0 text74 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext75 23BE 0 CODE 0 text75 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext76 3BAC 0 CODE 0 text76 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext77 3B26 0 CODE 0 text77 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext78 3B02 0 CODE 0 text78 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main_overcurrentProtection 23BE 0 CODE 0 text1 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1USBDeviceInit@i 74 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+i1USBDeviceInit@p 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCtrlEPService 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_PIN_MANAGER_Initialize 3CB2 0 CODE 0 text27 dist/default/debug\EasyPowerUSB.X.debug.obj
+___aldiv 10EE 0 CODE 0 text9 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_configDescriptor1 488 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBSuspend 3E14 0 CODE 0 text45 dist/default/debug\EasyPowerUSB.X.debug.obj
+_BAUDCON 19F 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+___lldiv 2506 0 CODE 0 text11 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+my_uitoa@strIncremet 1B2 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pmaintext 3E4C 0 CODE 0 maintext dist/default/debug\EasyPowerUSB.X.debug.obj
+main_SetDcDcRegulator@pI_mA 1C0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_SetDcDcRegulator@pU_mV 1C5 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USB_CD_Ptr 366 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+___lmul@multiplier 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_ep_data_in 2B4 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_CDC_to_RS485_Initialize 3F52 0 CODE 0 text61 dist/default/debug\EasyPowerUSB.X.debug.obj
+?_atoi 1A6 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBActiveConfiguration 1EE 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlEPAllowStatusStage 2B52 0 CODE 0 text71 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBConfigureEndpoint 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+_MAIN_upConverterFlag 249 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+___wmul@multiplier 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_LATAbits 10C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_LATCbits 10E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBTransferOnePacket 1400 0 CODE 0 text18 dist/default/debug\EasyPowerUSB.X.debug.obj
+_LastRS232Out 247 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_getsUSBUSART2 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_RemoteWakeup 24D 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_Iadc_limit 22F 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main_CDC_to_RS485_Tasks 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBDeviceTasks 2000 0 CODE 0 text42 dist/default/debug\EasyPowerUSB.X.debug.obj
+_ep_data_out 2B9 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_CDCInitEP2 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USART_getcUSART 3BE4 0 CODE 0 text40 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBEnableEndpoint@p 7A 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_dummy_encapsulated_cmd_response 2D4 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+putUSBUSART@length 1A2 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+stackhi 23EF 0 ABS 0 - C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+stacklo 23B0 0 ABS 0 - C:\Users\Valerii\AppData\Local\Temp\sbb0.obj
+_cdc_mem_type 255 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBConfigureEndpoint 229C 0 CODE 0 text68 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlEPAllowDataStage 2910 0 CODE 0 text51 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_ADC_SelectChannel 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCTxService2 1894 0 CODE 0 text41 dist/default/debug\EasyPowerUSB.X.debug.obj
+_OSCTUNE 98 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_ADCON0bits 9D 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK10 520 0 BANK10 1 bssBANK10 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK11 5A0 0 BANK11 1 bssBANK11 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlEPAllowDataStage 29CA 0 CODE 0 text51 dist/default/debug\EasyPowerUSB.X.debug.obj
+putUSBUSART@data 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1___lldiv@counter 7D 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+getsUSBUSART@len 1AB 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_cmdRxBuffer 320 0 BANK6 1 bssBANK6 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__size_of_main_CommunicationHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCheckCDCRequest2 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_memset 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_ADC_Initialize 3B7E 0 CODE 0 text31 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlTrfOutHandler 219E 0 CODE 0 text69 dist/default/debug\EasyPowerUSB.X.debug.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 -
+_PIR1bits 11 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_PIR2bits 12 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lend_init 1D2 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_USART_putcUSART 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_getsUSBUSART2 2506 0 CODE 0 text38 dist/default/debug\EasyPowerUSB.X.debug.obj
+getsUSBUSART@buffer 1AE 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBStdSetCfgHandler@i EA 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBStdSetCfgHandler@p E7 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1___lldiv@quotient 79 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+end_of_initialization 28C 0 CODE 0 cinit dist/default/debug\EasyPowerUSB.X.debug.obj
+main_CommunicationHandler@numBytesRead 1C8 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBStdSetCfgHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_errorMsg 608 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hintentry 1D2 0 CODE 0 intentry -
+_USBDeferStatusStagePacket 1E0 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_CDCInitEP 20B8 0 CODE 0 text65 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USER_USB_CALLBACK_EVENT_HANDLER 2126 0 CODE 0 text58 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_ofi1_ADC_StartConversion 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lstrings 0 0 ABS 0 strings -
+?___aldiv 1AC 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+main_overcurrentProtection@tOut 25C 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_CDCInitEP 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_FVR_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+?___lldiv 1AC 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec -
+_inPipes 1D5 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_shortPacketStatus 1EA 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_ofi1_TMR1_Reload 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USB_CD_Ptr 36E 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+USBTransferOnePacket@ep 1A8 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__HbssBANK3 0 0 ABS 0 bssBANK3 -
+__HbssBANK4 0 0 ABS 0 bssBANK4 -
+__HbssBANK5 0 0 ABS 0 bssBANK5 -
+__HbssBANK6 0 0 ABS 0 bssBANK6 -
+__HbssBANK7 0 0 ABS 0 bssBANK7 -
+__HbssBANK8 0 0 ABS 0 bssBANK8 -
+__HbssBANK9 0 0 ABS 0 bssBANK9 -
+__end_of_TMR1_Reload 3B6A 0 CODE 0 text16 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_Communication_Initialize 3F0A 0 CODE 0 text59 dist/default/debug\EasyPowerUSB.X.debug.obj
+_endpoint_number 259 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCDataOutHandle2 22D 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+my_uitoa@powerOfTen 1B4 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_errorMsg 622 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main_switchStepUp_Down 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USBConfigureEndpoint@EPNum 75 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+_RS232_Out_Data_Rdy 24B 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USB_SD_Ptr 348 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext1 232A 0 CODE 0 text1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext2 678 0 CODE 0 text2 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext3 3CB2 0 CODE 0 text3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext4 151E 0 CODE 0 text4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext5 3D74 0 CODE 0 text5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext6 9B0 0 CODE 0 text6 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext7 176A 0 CODE 0 text7 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext8 3FA0 0 CODE 0 text8 dist/default/debug\EasyPowerUSB.X.debug.obj
+__ptext9 10EE 0 CODE 0 text9 dist/default/debug\EasyPowerUSB.X.debug.obj
+INTERRUPT_InterruptManager@pwm 16C 0 BANK2 1 cstackBANK2 dist/default/debug\EasyPowerUSB.X.debug.obj
+_MAIN_Iout_mA 231 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+my_uitoa@num 1A6 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+my_uitoa@str 1B3 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCheckStdRequest 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBIncrement1msInternalTimers 3D42 0 CODE 0 text47 dist/default/debug\EasyPowerUSB.X.debug.obj
+_cdc_rx_len2 1E3 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCheckCDCRequest 2A8A 0 CODE 0 text63 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USBCtrlTrfInHandler 3000 0 CODE 0 text72 dist/default/debug\EasyPowerUSB.X.debug.obj
+___aldiv@dividend 1B0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCInitEP 204A 0 CODE 0 text65 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCtrlEPServiceComplete 1642 0 CODE 0 text50 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_configDescriptor1 36E 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__pstringtext 294 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+USBStdFeatureReqHandler@current_ep_data EA 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+_isdigit 3BC6 0 CODE 0 text14 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_TMR1_Initialize 3C2C 0 CODE 0 text24 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_TMR1_StartTimer 3AE2 0 CODE 0 text25 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCheckCDCRequest2 2A8A 0 CODE 0 text62 dist/default/debug\EasyPowerUSB.X.debug.obj
+_pBDTEntryEP0OutCurrent 1E9 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBTransferOnePacket@data 1A1 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_pBDTEntryOut 2AA 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_LPBOR$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+ADC_SelectChannel@channel 71 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main_SetDcDcRegulator C1A 0 CODE 0 text6 dist/default/debug\EasyPowerUSB.X.debug.obj
+?i1___lldiv 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USART_mySetLineCodingHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_ofi1_TMR1_Reload 3B46 0 CODE 0 text60 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStdSetCfgHandler 1400 0 CODE 0 text53 dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_WDTE$ON 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of__initialization 28C 0 CODE 0 cinit dist/default/debug\EasyPowerUSB.X.debug.obj
+_Uadc_target 239 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lfunctab 0 0 CODE 0 functab -
+__size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__pidataBANK4 1000 0 CODE 0 idataBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USART_mySetLineCodingHandler 232A 0 CODE 0 text74 dist/default/debug\EasyPowerUSB.X.debug.obj
+USBCtrlTrfTxService@byteToSend 72 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USART_getcUSART 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USTATcopy 1EF 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_timer1ReloadVal 1DC 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+___lmul@product 1A8 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_EUSART_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBCheckCDCRequest 29CA 0 CODE 0 text63 dist/default/debug\EasyPowerUSB.X.debug.obj
+_outPipes 220 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_PWM2_LoadDutyValue 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+___lmul@multiplicand 1A4 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBCtrlTrfSetupHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+main_CommunicationHandler@step 25B 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStatusStageTimeoutCounter 253 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_SetDcDcRegulator 9B0 0 CODE 0 text6 dist/default/debug\EasyPowerUSB.X.debug.obj
+___lldiv@quotient 1B5 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+putUSBUSART2@data 72 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main_overcurrentProtection 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_CDCTxService2 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TXSTAbits 19E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+my_uitoa@ziffer 1B5 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hend_init 1D6 0 CODE 0 end_init -
+___aldiv@counter 1B5 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_USB_SD_Ptr 35C 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_atoi 2D10 0 CODE 0 text13 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main 3E8A 0 CODE 0 maintext dist/default/debug\EasyPowerUSB.X.debug.obj
+isdigit@c 1A1 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_ADC_SelectChannel 3BC6 0 CODE 0 text76 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_ofi1_USBDeviceInit 1B30 0 CODE 0 text43 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_putUSBUSART 3CE0 0 CODE 0 text3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_main_CDC_to_RS485_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_isdigit$3010 1A0 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_RCREG 199 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_RCSTA 19D 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_CommunicationHandler 678 0 CODE 0 text2 dist/default/debug\EasyPowerUSB.X.debug.obj
+_SPBRG 19B 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_T1CON 18 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_T2CON 1C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR1H 17 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR1L 16 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_okMsg 366 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_TRISA 8C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TRISC 8E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TXREG 19A 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_TXSTA 19E 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_UADDR E96 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USTAT E8F 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_sd000 62A 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_sd001 5E4 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_sd002 554 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_sd003 4F0 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_sd004 5B8 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_TMR1_Initialize 3C04 0 CODE 0 text24 dist/default/debug\EasyPowerUSB.X.debug.obj
+_TMR1_StartTimer 3ADC 0 CODE 0 text25 dist/default/debug\EasyPowerUSB.X.debug.obj
+_CDCDataInHandle2 229 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStdGetStatusHandler 2654 0 CODE 0 text55 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBDeferINDataStagePackets 24F 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_my_uitoa 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_sd000 622 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_sd001 5B8 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_sd002 4F0 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_sd003 488 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+_sd004 554 0 STRCODE 0 stringtext dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBSuspend 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_USBLSCLK$48MHz 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_WDT_Initialize 3AF0 0 CODE 0 text21 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pintentry 8 0 CODE 0 intentry dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_main_CDC_to_RS485_Initialize 3FA0 0 CODE 0 text61 dist/default/debug\EasyPowerUSB.X.debug.obj
+__HdataBANK4 0 0 ABS 0 dataBANK4 -
+i1___lldiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_OSCILLATOR_Initialize 3B94 0 CODE 0 text28 dist/default/debug\EasyPowerUSB.X.debug.obj
+atoi@a 1AB 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+atoi@s 1AD 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+i1_USBTransferOnePacket 11F2 0 CODE 0 text66 dist/default/debug\EasyPowerUSB.X.debug.obj
+__initialization 1D6 0 CODE 0 cinit dist/default/debug\EasyPowerUSB.X.debug.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK2 16E 0 BANK2 1 bssBANK2 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK3 1CB 0 BANK3 1 bssBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK4 220 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK5 2A0 0 BANK5 1 bssBANK5 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK6 320 0 BANK6 1 bssBANK6 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK7 3A0 0 BANK7 1 bssBANK7 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK8 420 0 BANK8 1 bssBANK8 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pbssBANK9 4A0 0 BANK9 1 bssBANK9 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_CDCTxService2 19D0 0 CODE 0 text41 dist/default/debug\EasyPowerUSB.X.debug.obj
+_T2CONbits 1C 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+__Hstringtext 0 0 ABS 0 stringtext -
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USBDeviceTasks@i EF 0 BANK1 1 cstackBANK1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USER_USB_CALLBACK_EVENT_HANDLER 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+USBConfigureEndpoint@direction 70 0 COMMON 1 cstackCOMMON dist/default/debug\EasyPowerUSB.X.debug.obj
+___wmul@product 1A4 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+CDCTxService@byte_to_send 1AD 0 BANK3 1 cstackBANK3 dist/default/debug\EasyPowerUSB.X.debug.obj
+_main_overcurrentProtection 232A 0 CODE 0 text1 dist/default/debug\EasyPowerUSB.X.debug.obj
+__size_of_USBStdFeatureReqHandler 0 0 ABS 0 - dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStatusStageEnabledFlag1 251 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+_USBStatusStageEnabledFlag2 252 0 BANK4 1 bssBANK4 dist/default/debug\EasyPowerUSB.X.debug.obj
+__pswtext1 3000 0 CONST 0 swtext1 dist/default/debug\EasyPowerUSB.X.debug.obj
+_putUSBUSART2 3C2C 0 CODE 0 text37 dist/default/debug\EasyPowerUSB.X.debug.obj
+_OSCILLATOR_Initialize 3B7E 0 CODE 0 text28 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_TMR2_Initialize 3B58 0 CODE 0 text22 dist/default/debug\EasyPowerUSB.X.debug.obj
+__end_of_TMR2_StartTimer 3AE8 0 CODE 0 text23 dist/default/debug\EasyPowerUSB.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+_CtrlTrfData 1 A8 8
+_SetupPkt 1 A0 8
+_cdc_data_rx2 1 120 40
+_cdc_data_tx2 1 A0 40
+_cdc_data_rx 1 120 40
+_cdc_data_tx 1 A0 40
+_BDT 1 20 50
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 1195 232A 4A 2
+text2 0 33C 678 4C2 2
+text3 0 1E59 3CB2 17 2
+text4 0 A8F 151E 92 2
+text5 0 1EBA 3D74 19 2
+text7 0 BB5 176A 95 2
+text8 0 1FD0 3FA0 30 2
+text9 0 877 10EE 82 2
+text10 0 1EA1 3D42 19 2
+text11 0 1283 2506 53 2
+text12 0 12D6 25AC 54 2
+text13 0 1617 2C2E 71 2
+text14 0 1DE3 3BC6 F 2
+text15 0 1F0A 3E14 1C 2
+text16 0 1DAC 3B58 9 2
+text17 0 D98 1B30 B3 2
+text18 0 97C 12F8 84 2
+text19 0 E4B 1C96 B9 2
+text20 0 1ED3 3DA6 1B 2
+text21 0 1D78 3AF0 4 2
+text22 0 1DA3 3B46 9 2
+text23 0 1D71 3AE2 3 2
+text24 0 1E02 3C04 14 2
+text25 0 1D6E 3ADC 3 2
+text26 0 1D87 3B0E 6 2
+text27 0 1E42 3C84 17 2
+text28 0 1DBF 3B7E B 2
+text29 0 1D74 3AE8 4 2
+text30 0 1DCA 3B94 C 2
+text31 0 1DB5 3B6A A 2
+text32 0 1D6B 3AD6 3 2
+text34 0 1E2C 3C58 16 2
+text35 0 1D68 3AD0 3 2
+text36 0 1688 2D10 79 2
+text37 0 1E16 3C2C 16 2
+text38 0 1231 2462 52 2
+text39 0 1D7C 3AF8 5 2
+text40 0 1DF2 3BE4 10 2
+text41 0 C4A 1894 9E 2
+text42 0 F04 1E08 121 2
+text43 0 CE8 19D0 B0 2
+text44 0 1F65 3ECA 20 2
+text45 0 1EEE 3DDC 1C 2
+text47 0 1E88 3D10 19 2
+text48 0 142E 285C 5A 2
+text49 0 137F 26FE 55 2
+text50 0 B21 1642 94 2
+text51 0 1488 2910 5D 2
+text52 0 13D4 27A8 5A 2
+text53 0 A00 1400 8F 2
+text54 0 1E70 3CE0 18 2
+text55 0 132A 2654 55 2
+text56 0 1701 2E02 7F 2
+text58 0 1093 2126 3C 2
+text59 0 1F85 3F0A 24 2
+text60 0 1D9A 3B34 9 2
+text61 0 1FA9 3F52 27 2
+text62 0 1545 2A8A 64 2
+text63 0 14E5 29CA 60 2
+text64 0 105C 20B8 37 2
+text65 0 1025 204A 37 2
+text66 0 8F9 11F2 83 2
+text67 0 1F45 3E8A 20 2
+text68 0 110C 2218 42 2
+text69 0 10CF 219E 3D 2
+text71 0 15A9 2B52 6E 2
+text72 0 1780 2F00 80 2
+text73 0 804 1008 73 2
+text74 0 114E 229C 47 2
+text75 0 11DF 23BE 52 2
+text76 0 1DD6 3BAC D 2
+text77 0 1D93 3B26 7 2
+text78 0 1D81 3B02 6 2
+maintext 0 1F26 3E4C 1F 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK1 1 E0 E0 10 1
+cstackBANK2 1 160 160 10 1
+cstackBANK3 1 1A0 1A0 50 1
+intentry 0 4 8 146 2
+reset_vec 0 0 0 3 2
+bssBANK4 1 220 220 4E 1
+bssBANK5 1 2A0 2A0 4B 1
+bssBANK6 1 320 320 40 1
+bssBANK7 1 3A0 3A0 40 1
+bssBANK8 1 420 420 40 1
+bssBANK9 1 4A0 4A0 40 1
+stringtext 0 14A 294 1F2 2
+idataBANK4 0 800 1000 4 2
+swtext1 0 1800 3000 1A 2
+clrtext 0 1D8D 3B1A 6 2
+bssBANK10 1 520 520 40 1
+bssBANK11 1 5A0 5A0 40 1
+config 0 8007 1000E 2 2
