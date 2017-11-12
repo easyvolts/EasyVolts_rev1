@@ -1,0 +1,8 @@
+The device accepts 2 commands:
+1) uXXXX\r\n - set voltage, where XXX is desired voltage in mV. For example u3300\r\n will set output to 3v3. Max value is 15000.
+2) iXXXX\r\n - set current limit, where XXX is desired current limit in mA. For example i100 sets current limit to 100mA. Max value is 1000.
+
+The device periodically sends to PC strings with measured output voltage, current and state. The strings look like:
+"EasyVolts 	U(mV)=3300    	^I(mA)=100\r\n" - Uout=3v3, Iout=100mA, "^" - means that overcurrent protection is active.
+"EasyVolts 	U(mV)=3300    	 I(mA)=100\r\n" - Uout=3v3, Iout=100mA, " " - means that output is active, no overload.
+"EasyVolts 	U(mV)=3300    	_I(mA)=0\r\n"   - Uout=3v3, Iout=0mA,   "_" - means that output is OFF, current = 0, but voltage on output is 3v3(for exaple if there is an external source connected).
